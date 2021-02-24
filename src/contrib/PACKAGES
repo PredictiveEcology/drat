@@ -30,3 +30,13 @@ Suggests: covr, knitr, rgdal, rmarkdown, SpaDES.tools, testthat
 License: GPL-3
 MD5sum: a7c98d22a33aa432f08509ad0f1850e5
 NeedsCompilation: no
+
+Package: pemisc
+Version: 0.0.3.9000
+Depends: R (>= 3.6)
+Imports: amc (>= 0.1.6.9000), assertthat, backports, data.table, fasterize, igraph, methods, magrittr,
+            parallel, peutils, raster, RCurl, reproducible, sp, SpaDES.core, stats, tools, utils
+Suggests: details, git2r, here, knitr, roxygen2, rmarkdown, sessioninfo, testthat
+License: GPL-3
+MD5sum: 2fb11630881c57db01b70105576a4512
+NeedsCompilation: no
