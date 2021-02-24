@@ -40,3 +40,10 @@ Suggests: details, git2r, here, knitr, roxygen2, rmarkdown, sessioninfo, testtha
 License: GPL-3
 MD5sum: 2fb11630881c57db01b70105576a4512
 NeedsCompilation: no
+
+Package: peutils
+Version: 0.1.0
+Suggests: covr, spelling, testthat
+License: GPL-3
+MD5sum: 204e7c3f912417fd59e216e7d4616cf4
+NeedsCompilation: no
