@@ -1,5 +1,8 @@
 achubaty/amc@development
+PredictiveEcology/CBMutils@development
+PredictiveEcology/fireSenseUtils@development
 PredictiveEcology/LandR@development
+PredictiveEcology/LandWebUtils@development
 PredictiveEcology/map@development
 PredictiveEcology/pemisc@development
 PredictiveEcology/peutils@development
