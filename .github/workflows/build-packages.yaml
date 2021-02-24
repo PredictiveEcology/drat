@@ -4,7 +4,7 @@ on:
   push:
     path:
       packages.txt
-      .github/workflows/beuld-packages.yaml
+      .github/workflows/build-packages.yaml
 
 name: Build packages
 
