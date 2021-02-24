@@ -1,0 +1,9 @@
+Package: amc
+Version: 0.1.6.9000
+Depends: R (>= 3.6)
+Imports: base64enc, data.table, datasets, digest, dismo, httr, magrittr, methods, parallel, plyr,
+            reproducible, raster (>= 3.3-13), rgdal, sp, tools, utils
+Suggests: covr, knitr, rmarkdown, rstudioapi, spelling, testthat
+License: GPL-3
+MD5sum: 2f6c6978ea39eb57ba72f6ebf196c4d7
+NeedsCompilation: no
