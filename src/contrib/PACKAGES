@@ -20,3 +20,13 @@ Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling, testthat
 License: GPL-3
 MD5sum: 4bafc9a29353861bd86f118ae442b3c9
 NeedsCompilation: yes
+
+Package: map
+Version: 0.0.3
+Depends: R (>= 3.6)
+Imports: backports, data.table (>= 1.10.4), fastdigest, fasterize, gdalUtils, magrittr, methods, pemisc,
+            quickPlot, reproducible (>= 1.2.0.9010), raster (>= 2.8.4), rgeos, sf, sp, stats, tiler, utils
+Suggests: covr, knitr, rgdal, rmarkdown, SpaDES.tools, testthat
+License: GPL-3
+MD5sum: a7c98d22a33aa432f08509ad0f1850e5
+NeedsCompilation: no
