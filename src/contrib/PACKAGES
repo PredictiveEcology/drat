@@ -57,3 +57,12 @@ Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat (>= 1.0.
 License: GPL-3
 MD5sum: 7d305f8dd1b58e85b765439711af6ea1
 NeedsCompilation: no
+
+Package: Require
+Version: 0.0.11.9000
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.10.4), methods, remotes, utils
+Suggests: covr, testit
+License: GPL-3
+MD5sum: 93e8c9f62966b0b3604e5b8603a176f7
+NeedsCompilation: no
