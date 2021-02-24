@@ -1,0 +1,27 @@
+# pack-refs with: peeled fully-peeled sorted 
+a6b066adb4fd7ab06affe3ae8302130531b0766f refs/heads/development
+a3f75379db9c7ef679f918763895a1671457ff5d refs/heads/installGitHubPackage
+dfb82423f0358b558474007a82c77117e532e179 refs/heads/master
+6592af093ac1742fa40f85a9cf5f6e5d73379127 refs/heads/setLibPathsInRProfile
+30a3a5c373105c939365e56eaa0fe2e3066964e5 refs/heads/setup
+5cfc3711239747118b94e6751c64160573ea5f5d refs/pull/10/head
+dc5d6cdbb3d43a03f888b2daf7f29c6ed6e2a67e refs/pull/11/head
+40251de3f19592128cbca8e1c49d7976cdc81133 refs/pull/13/head
+c94a762b5997def07f4ab47035f9b47bc21d998b refs/pull/14/head
+39271918e70ed2bed12916312c0579c749b4953c refs/pull/15/head
+dd3654cf0fc0b4d85e4e5fe412bde64f17945e8b refs/pull/16/head
+6592af093ac1742fa40f85a9cf5f6e5d73379127 refs/pull/17/head
+6592af093ac1742fa40f85a9cf5f6e5d73379127 refs/pull/18/head
+30a3a5c373105c939365e56eaa0fe2e3066964e5 refs/pull/20/head
+337a06478e2d66b75702600bdaf0bb6cdcb49ce5 refs/pull/21/head
+a3f75379db9c7ef679f918763895a1671457ff5d refs/pull/22/head
+dfb744af7a627ac401b2c3d260a03a05f90b750c refs/pull/22/merge
+8c9e223ed837514b158ddad7fcf8143f185a7b2c refs/pull/3/head
+b833f0cae802b294524cfadfff193cc4d915cec1 refs/pull/4/head
+6a0f7ce3a5e2e17cd8ce68acba5d41e83a28a440 refs/pull/5/head
+00efb38f9f9cf943f13df96080732cfd729f886b refs/pull/6/head
+c6ce484da7f4093367cc688205d254515218d42f refs/pull/7/head
+76ea4645646152597d4a689dea9f1fbd5dcdb1eb refs/pull/8/head
+5b62427849ec11ca6f2b6d0da06089f41230984e refs/tags/0.0.9
+e17fe2a6824ea9d4008ac45b20bfdfcdb4583dd3 refs/tags/v0.0.7
+f737049df3faf6c6c90abe187e01fdf98f342574 refs/tags/v0.0.8

@@ -1,0 +1,10 @@
+achubaty/amc@development
+PredictiveEcology/LandR@development
+PredictiveEcology/map@development
+PredictiveEcology/pemisc@development
+PredictiveEcology/peutils@development
+PredictiveEcology/quickPlot@development
+PredictiveEcology/Require@development
+PredictiveEcology/reproducible@development
+PredictiveEcology/SpaDES.core@development
+PredictiveEcology/SpaDES.tools@development
