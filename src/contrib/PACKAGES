@@ -47,3 +47,13 @@ Suggests: covr, spelling, testthat
 License: GPL-3
 MD5sum: 204e7c3f912417fd59e216e7d4616cf4
 NeedsCompilation: no
+
+Package: quickPlot
+Version: 0.1.7.9001
+Depends: R (>= 3.6)
+Imports: backports, data.table (>= 1.10.4), fpCompare, ggplot2, grDevices, grid, gridBase, igraph, methods,
+            raster, RColorBrewer, rgdal, rgeos, sp, stats
+Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat (>= 1.0.2)
+License: GPL-3
+MD5sum: 7d305f8dd1b58e85b765439711af6ea1
+NeedsCompilation: no
