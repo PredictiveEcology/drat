@@ -77,3 +77,15 @@ Suggests: covr, testit
 License: GPL-3
 MD5sum: 93e8c9f62966b0b3604e5b8603a176f7
 NeedsCompilation: no
+
+Package: SpaDES.core
+Version: 1.0.6.9015
+Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.1.9007)
+Imports: crayon, data.table (>= 1.10.4), fastdigest, igraph (>= 1.0.1), methods, qs (>= 0.21.1), raster (>=
+            2.5-8), Require (>= 0.0.7), stats, utils, whisker
+Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future, future.callr, ggplot2, googledrive, httr,
+            knitr, logging, magrittr, png, RandomFields (>= 3.3.4), RColorBrewer (>= 1.1-2), rgdal,
+            rstudioapi, sp, SpaDES.tools (>= 0.2.0), rmarkdown, tcltk, testthat (>= 1.0.2)
+License: GPL-3
+MD5sum: ccd7b7b912c4edc772a7fc195f0f3e8a
+NeedsCompilation: no
