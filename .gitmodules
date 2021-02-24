@@ -1,0 +1,20 @@
+[submodule "packages/LandR"]
+	url = https://github.com/PredictiveEcology/LandR
+[submodule "packages/Require"]
+	url = https://github.com/PredictiveEcology/Require
+[submodule "packages/SpaDES.core"]
+	url = https://github.com/PredictiveEcology/SpaDES.core
+[submodule "packages/SpaDES.tools"]
+	url = https://github.com/PredictiveEcology/SpaDES.tools
+[submodule "packages/amc"]
+	url = https://github.com/achubaty/amc
+[submodule "packages/map"]
+	url = https://github.com/PredictiveEcology/map
+[submodule "packages/pemisc"]
+	url = https://github.com/PredictiveEcology/pemisc
+[submodule "packages/peutils"]
+	url = https://github.com/PredictiveEcology/peutils
+[submodule "packages/quickPlot"]
+	url = https://github.com/PredictiveEcology/quickPlot
+[submodule "packages/reproducible"]
+	url = https://github.com/PredictiveEcology/reproducible
