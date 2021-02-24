@@ -7,3 +7,16 @@ Suggests: covr, knitr, rmarkdown, rstudioapi, spelling, testthat
 License: GPL-3
 MD5sum: 2f6c6978ea39eb57ba72f6ebf196c4d7
 NeedsCompilation: no
+
+Package: LandR
+Version: 0.0.12
+Depends: R (>= 3.6)
+Imports: assertthat, crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2, grDevices, httr, lme4,
+            magrittr, map, methods, MuMIn (>= 1.42.5), pemisc, quickPlot, raster, RColorBrewer, Rcpp,
+            RCurl, reproducible (>= 1.2.1.9007), scales, sf, sp, SpaDES.tools (>= 0.3.1.9000), stats,
+            tools, utils, XML
+LinkingTo: Rcpp
+Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling, testthat
+License: GPL-3
+MD5sum: 4bafc9a29353861bd86f118ae442b3c9
+NeedsCompilation: yes
