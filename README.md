@@ -1,6 +1,8 @@
-`drat` repository of development versions of R packages developed by the Predictive Ecology Group.
+# Predictive Ecology packages
 
-To get started using packages from this repo:
+A `drat` repository of development versions of R packages developed by the Predictive Ecology Group.
+
+## Getting started
 
 1. install the `drat` package:
 
@@ -11,7 +13,11 @@ To get started using packages from this repo:
 2. next, add this repository:
 
     ```r
-    drat:::add("PredictiveEcology")
+    drat:::add("PredictiveEcology") 
+    
+    ## alternatively, add 'https://drat.predictiveecology.org' to your 'repos' list via options()
+    # r <- getOption("repos")
+    # options(repos = c(r, PE = "https://drat.predictiveecology.org"))
     ```
     
 3. install packages, e.g.
