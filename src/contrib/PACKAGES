@@ -20,6 +20,19 @@ License: GPL-3
 MD5sum: a0ef9258c4dfe48f320262d197d9b7dc
 NeedsCompilation: yes
 
+Package: fireSenseUtils
+Version: 0.0.4.9039
+Depends: R (>= 3.6)
+Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
+        kSamples, LandR, magrittr, mclust, methods, qs, quickPlot,
+        pemisc, pROC, purrr, raster, reproducible, RhpcBLASctl, sf, sp,
+        SpaDES.core, SpaDES.tools (>= 0.3.7), spatialEco, stats
+Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
+        rgeos, rmarkdown, spatstat, spelling, testthat
+License: GPL-3
+MD5sum: d136a6f138bcce08ea362d28f45fcad0
+NeedsCompilation: no
+
 Package: LandR
 Version: 0.0.12
 Depends: R (>= 3.6)
