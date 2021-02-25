@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "0 12 * * MON"
+    - cron: "0 12 * * 1"
   push:
     path:
       packages.txt
@@ -10,7 +10,7 @@ name: Build packages
 
 jobs:
   render:
-    name: Build PredictiveEcology packages on Ubuntu
+    name: Build source packages on Ubuntu
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
