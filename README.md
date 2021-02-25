@@ -1,4 +1,3 @@
-# packages
 `drat` repository of development versions of R packages developed by the Predictive Ecology Group.
 
 To get started using packages from this repo:
