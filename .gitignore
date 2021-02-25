@@ -34,3 +34,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# drat.builder temp directories
+packages/
+packages_src/
