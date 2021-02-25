@@ -26,4 +26,4 @@ A `drat` repository of development versions of R packages developed by the Predi
     install.packages("amc")
     ```
 
-For a full listing of available packages, see <https://github.com/PredictiveEcology/drat/tree/main/src/contrib>.
+For a full listing of available packages, see <https://github.com/PredictiveEcology/drat/tree/main/packages.txt>.
