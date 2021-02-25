@@ -49,6 +49,17 @@ License: GPL-3
 MD5sum: 4bafc9a29353861bd86f118ae442b3c9
 NeedsCompilation: yes
 
+Package: LandWebUtils
+Version: 0.1.2
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4), graphics, grDevices, dplyr, LandR (>=
+        0.0.5), magrittr, map, methods, pemisc, raster, reproducible,
+        SpaDES.core, stats, tools, utils
+Suggests: covr
+License: GPL-3
+MD5sum: 89ad1b977853552b3b1a8a263367d972
+NeedsCompilation: no
+
 Package: map
 Version: 0.0.3
 Depends: R (>= 3.6)
