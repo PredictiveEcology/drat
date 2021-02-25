@@ -34,6 +34,22 @@ MD5sum: d136a6f138bcce08ea362d28f45fcad0
 NeedsCompilation: no
 
 Package: LandR
+Version: 0.0.12.9003
+Depends: R (>= 3.6)
+Imports: assertthat, crayon, data.table, fasterize, fpCompare,
+        gdalUtils, ggplot2, grDevices, httr, lme4, magrittr, map,
+        methods, MuMIn (>= 1.42.5), pemisc, quickPlot, raster,
+        RColorBrewer, Rcpp, RCurl, reproducible (>= 1.2.6.9003),
+        scales, sf, sp, SpaDES.tools (>= 0.3.1.9000), stats, tools,
+        utils, XML
+LinkingTo: Rcpp
+Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
+        testthat
+License: GPL-3
+MD5sum: 372ae3b48b007e008eb25ecc789db053
+NeedsCompilation: yes
+
+Package: LandR
 Version: 0.0.12
 Depends: R (>= 3.6)
 Imports: assertthat, crayon, data.table, fasterize, fpCompare,
