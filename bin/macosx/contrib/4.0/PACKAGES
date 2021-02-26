@@ -6,7 +6,7 @@ Imports: base64enc, data.table, datasets, digest, dismo, httr,
         3.3-13), rgdal, sp, tools, utils
 Suggests: covr, knitr, rmarkdown, rstudioapi, spelling, testthat
 License: GPL-3
-MD5sum: 72b64e7b5b161bc54a95e130c6a6c0a7
+MD5sum: bbe08e251d044f3512198ee8981e347a
 
 Package: CBMutils
 Version: 0.0.7.9001
@@ -16,7 +16,7 @@ Imports: data.table, fasterize, ggplot2, magrittr, methods, quickPlot,
 LinkingTo: Rcpp
 Suggests: covr, knitr, LandR, rmarkdown, testthat
 License: GPL-3
-MD5sum: de1dd12dbce0e8b6e2da43a1585c66ad
+MD5sum: 67fe87a8a0900a3fac80be7515793990
 
 Package: fireSenseUtils
 Version: 0.0.4.9039
@@ -28,7 +28,7 @@ Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
 Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
         rgeos, rmarkdown, spatstat, spelling, testthat
 License: GPL-3
-MD5sum: 78f12eeb98fe557de1fabb9af6d37731
+MD5sum: aa94e8dbab00cd2d4e064bd0eb10608d
 
 Package: LandR
 Version: 0.0.12.9005
@@ -42,7 +42,7 @@ LinkingTo: Rcpp
 Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
         testthat
 License: GPL-3
-MD5sum: e34958c4fa679ce55841afb5e28776e5
+MD5sum: 1ae243a69fbee44be1d28f5f2d1466bb
 
 Package: LandWebUtils
 Version: 0.1.2
@@ -52,7 +52,7 @@ Imports: data.table (>= 1.10.4), graphics, grDevices, dplyr, LandR (>=
         SpaDES.core, stats, tools, utils
 Suggests: covr
 License: GPL-3
-MD5sum: ff154dae5dc4302458a9c15d7f3d77b0
+MD5sum: caa976c5ef09b3581d3e4a6cf7e8fd48
 
 Package: map
 Version: 0.0.3
@@ -63,7 +63,7 @@ Imports: backports, data.table (>= 1.10.4), fastdigest, fasterize,
         tiler, utils
 Suggests: covr, knitr, rgdal, rmarkdown, SpaDES.tools, testthat
 License: GPL-3
-MD5sum: fe590127cb52ba554596725c890c2cf6
+MD5sum: 96afb74c93d6e182ac367116bc03345a
 
 Package: pemisc
 Version: 0.0.3.9000
@@ -75,13 +75,13 @@ Imports: amc (>= 0.1.6.9000), assertthat, backports, data.table,
 Suggests: details, git2r, here, knitr, roxygen2, rmarkdown,
         sessioninfo, testthat
 License: GPL-3
-MD5sum: 66c32c264d14a809871df64c2ff549d6
+MD5sum: 18e8a4c00a6a41dc9ac71fcda42c4cf6
 
 Package: peutils
 Version: 0.1.0
 Suggests: covr, spelling, testthat
 License: GPL-3
-MD5sum: 5404128e50b9f17be44b2af59456cbc4
+MD5sum: dc4bcd75fa5f240ec4409ff5e3ea73e8
 
 Package: quickPlot
 Version: 0.1.7.9002
@@ -92,7 +92,7 @@ Imports: backports, data.table (>= 1.10.4), fpCompare, ggplot2,
 Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
         (>= 1.0.2)
 License: GPL-3
-MD5sum: 026c089fe06b99b0c1f09d9b0df28d84
+MD5sum: ce01dd144d2d8955b95b68eee0944d35
 
 Package: reproducible
 Version: 1.2.6.9005
@@ -104,7 +104,7 @@ Suggests: covr, crayon, fastdigest, fasterize, future, gdalUtils,
         googledrive, httr, qs, knitr, parallel, RCurl (>= 1.95-4.8),
         rgdal, rgeos, rmarkdown, sf, stats, testthat
 License: GPL-3
-MD5sum: 3afdc411d2812b1174919ebfde06a695
+MD5sum: 46ac9e9de9ddbb36c89db1dff093b688
 
 Package: Require
 Version: 0.0.11.9001
@@ -112,7 +112,7 @@ Depends: R (>= 3.5)
 Imports: data.table (>= 1.10.4), methods, remotes, utils
 Suggests: covr, testit
 License: GPL-3
-MD5sum: 7d0720565c57dde896481370e2be5ad9
+MD5sum: 9fb97bb9f4b2a647ba6684d70172fbd4
 
 Package: SpaDES.core
 Version: 1.0.6.9015
@@ -126,7 +126,7 @@ Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
         1.1-2), rgdal, rstudioapi, sp, SpaDES.tools (>= 0.2.0),
         rmarkdown, tcltk, testthat (>= 1.0.2)
 License: GPL-3
-MD5sum: a6c524ca950b41e10a1b002dc19f4dbf
+MD5sum: 2b7d742c5aae3fdf370d6bc9bdf5c054
 
 Package: SpaDES.tools
 Version: 0.3.7.9007
@@ -143,7 +143,7 @@ Suggests: animation, bit (>= 1.1-12), DBI, DEoptim (>= 2.2-4), dplyr,
         RColorBrewer (>= 1.1-2), rmarkdown, sf, testthat (>= 1.0.2),
         covr
 License: GPL-3
-MD5sum: 21af82e1ec60ccecd48163dd684de45b
+MD5sum: 8b9a806fc2885091ad24789705e8e85d
 
 Package: usefulFuns
 Version: 0.1.0
@@ -155,4 +155,4 @@ Imports: animation, crayon, data.table, effsize, fasterize, future,
         SpaDES.core, SpaDES.tools, stats, sysfonts
 Suggests: covr, lintr, spelling
 License: GPL (>= 2)
-MD5sum: cfe47e6d602f6acfe2a76e9fe32f1245
+MD5sum: 29bc39bcda940327194a993d816eff32

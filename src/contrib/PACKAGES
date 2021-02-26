@@ -43,7 +43,7 @@ Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2, ggpubr,
 LinkingTo: Rcpp
 Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling, testthat
 License: GPL-3
-MD5sum: 4cfa7c77ead47bb9591842a28868bc18
+MD5sum: ecff90ba2e853210a8b3a7e7c7198b3f
 NeedsCompilation: yes
 
 Package: LandWebUtils
