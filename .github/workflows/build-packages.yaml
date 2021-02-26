@@ -58,12 +58,14 @@ jobs:
           brew install udunits
           Rscript build_binaries.R
           git commit -a -m 'add latest binary packages for macOS'
+          git pull
 
       - name: Build binary packages (Windows)
         if: runner.os == 'Windows'
         run: |
           Rscript build_binaries.R
           git commit -a -m 'add latest binary packages for Windows'
+          git pull
 
       - name: Push results
         run: |
