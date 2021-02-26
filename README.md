@@ -1,6 +1,6 @@
 # Predictive Ecology packages
 
-A `drat` repository of development versions of R packages developed by the Predictive Ecology Group.
+A `drat` repository of development versions of R packages developed by the Predictive Ecology Group. We have set this up so that the packages are rebuilt once per week, on Monday. Currently, only source packages are available, so a user must have all the Rtools build chain.
 
 ## Getting started
 
