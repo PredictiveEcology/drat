@@ -3,27 +3,66 @@ on:
     - cron: "0 12 * * 1"
   push:
     path:
-      packages.txt
       .github/workflows/build-packages.yaml
+      build_binaries.R
+      packages.txt
 
 name: Build packages
 
 jobs:
   render:
-    name: Build source packages on Ubuntu
-    runs-on: ubuntu-latest
+    name: ${{ matrix.config.os }} (${{ matrix.config.r }})
+    runs-on: ${{ matrix.config.os }}
+
+    strategy:
+      matrix:
+        config:
+          - {os: macOS-latest,   r: 'release'}
+          - {os: windows-latest, r: 'release'}
+          - {os: windows-latest, r: '3.6'}
+          - {os: ubuntu-latest,   r: 'release', rspm: "https://packagemanager.rstudio.com/cran/__linux__/bionic/latest"}
+
+    env:
+      RSPM: ${{ matrix.config.rspm }}
+
     steps:
       - uses: actions/checkout@v1
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
+
       - name: Install remotes
-        run: Rscript -e "install.packages('remotes')"
+        run: |
+          "install.packages('devtools')"
+        shell: Rscript {0}
+
       - name: Install drat.builder
-        run: Rscript -e "remotes::install_github('richfitz/drat.builder')"
-      - name: Update DRAT
+        run: |
+          "remotes::install_github('richfitz/drat.builder')"
+        shell: Rscript {0}
+
+      - name: Configure git
         run: |
           git config --global user.name "[drat bot]"
+
+      - name: Build source packages
+        if: runner.os == "Linux"
+        run: |
           Rscript -e "drat.builder::build()"
+
+      - name: Build binary packages (macOS)
+        if: runner.os == "macOS"
+        run: |
+          Rscript -e "drat.builder::build(install = TRUE,  no commit = TRUE)"
+          Rscript build_binaries.R
+          git commit -a -m 'add latest binary packages for macOS'
+
+      - name: Build binary packages (Windows)
+        if: runner.os == "Windows"
+        run: |
+          Rscript -e "drat.builder::build(install = TRUE,  no commit = TRUE)"
+          Rscript build_binaries.R
+          git commit -a -m 'add latest binary packages for Windows'
+
       - name: Push results
         run: |
           git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
