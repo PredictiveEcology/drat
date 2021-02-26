@@ -236,7 +236,7 @@ Suggests: animation, bit (>= 1.1-12), DBI, DEoptim (>= 2.2-4), dplyr,
         RColorBrewer (>= 1.1-2), rmarkdown, sf, testthat (>= 1.0.2),
         covr
 License: GPL-3
-MD5sum: eebb5ed1817a2f90aa78be082ad438b3
+MD5sum: acaa5287cfeb99b91d236e1bd6a598f8
 NeedsCompilation: yes
 
 Package: usefulFuns
