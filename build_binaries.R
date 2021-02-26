@@ -1,9 +1,11 @@
 if (interactive()) {
-  unlink(c("packages", "packages_src"), recursive = TRUE)
-  drat.builder::build(install = TRUE, no_commit = TRUE) ## no_fetch = TRUE
+  unlink("packages", recursive = TRUE, force = TRUE)
+  unlink("packages_src", recursive = TRUE, force = TRUE)
 }
 
 ### ---------------------------------------------------- ###
+
+drat.builder::build(install = TRUE, no_commit = TRUE) ## no_fetch = TRUE
 
 pkgs <- drat.builder:::read_packages()
 
