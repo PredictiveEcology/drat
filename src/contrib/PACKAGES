@@ -222,3 +222,16 @@ Suggests: animation, bit (>= 1.1-12), DBI, DEoptim (>= 2.2-4), dplyr,
 License: GPL-3
 MD5sum: eebb5ed1817a2f90aa78be082ad438b3
 NeedsCompilation: yes
+
+Package: usefulFuns
+Version: 0.1.0
+Depends: R (>= 3.6)
+Imports: animation, crayon, data.table, effsize, fasterize, future,
+        future.apply, ggplot2, googledrive, gridExtra, hexSticker,
+        LandR, magrittr, methods, pryr, quickPlot, raster, rasterVis,
+        RColorBrewer, remotes, reproducible, sp, sf, showtext,
+        SpaDES.core, SpaDES.tools, stats, sysfonts
+Suggests: covr, lintr, spelling
+License: GPL (>= 2)
+MD5sum: 3f5b272d4d2d9332c8d2c6775ecd9397
+NeedsCompilation: no
