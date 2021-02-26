@@ -15,4 +15,11 @@ binPkgs <- apply(pkgs, 1, function(p) {
   devtools::build(pkg = pkg, path = "packages", binary = TRUE)
 })
 
-drat::insertPackages(binPkgs, repodir = ".", action = "archive")
+os <- switch(Sys.info()["sysname"],
+             Darwin = "macOS",
+             Linux = "Linux",
+             Windows = "Windows",
+             "other")
+drat::insertPackages(binPkgs, repodir = ".",
+                     commit = paste("add latest binary packages for", os),
+                     action = "archive", pullfirst = TRUE)
