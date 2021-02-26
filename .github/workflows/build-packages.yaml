@@ -54,6 +54,7 @@ jobs:
       - name: Build binary packages (macOS)
         if: runner.os == 'macOS'
         run: |
+          brew install udunits
           Rscript build_binaries.R
           git commit -a -m 'add latest binary packages for macOS'
 
