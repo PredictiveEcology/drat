@@ -62,7 +62,7 @@ LinkingTo: Rcpp
 Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
         testthat
 License: GPL-3
-MD5sum: 04f2fe71a7bab3fef0c001229c804eae
+MD5sum: 059fe681dd6ee5563e4a74b2e61d0194
 NeedsCompilation: yes
 
 Package: LandR
