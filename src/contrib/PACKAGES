@@ -52,17 +52,16 @@ NeedsCompilation: yes
 Package: LandR
 Version: 0.0.12.9005
 Depends: R (>= 3.6)
-Imports: assertthat, crayon, data.table, fasterize, fpCompare,
-        gdalUtils, ggplot2, ggpubr, ggspatial, grDevices, httr, lme4,
-        magrittr, map, methods, MuMIn (>= 1.42.5), pemisc, quickPlot,
-        raster, RColorBrewer, Rcpp, RCurl, reproducible (>=
-        1.2.6.9003), scales, sf, sp, SpaDES.tools (>= 0.3.1.9000),
-        stats, tools, utils, XML
+Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
+        ggpubr, ggspatial, grDevices, httr, lme4, magrittr, map,
+        methods, MuMIn (>= 1.42.5), pemisc, quickPlot, raster,
+        RColorBrewer, Rcpp, RCurl, reproducible (>= 1.2.6.9003), sf,
+        sp, SpaDES.tools (>= 0.3.1.9000), stats, tools, utils, XML
 LinkingTo: Rcpp
 Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
         testthat
 License: GPL-3
-MD5sum: 059fe681dd6ee5563e4a74b2e61d0194
+MD5sum: 0f9b833e66751ba2d28352d055895d17
 NeedsCompilation: yes
 
 Package: LandR
