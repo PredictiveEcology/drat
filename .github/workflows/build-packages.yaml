@@ -45,19 +45,19 @@ jobs:
           git config --global user.name "[drat bot]"
 
       - name: Build source packages
-        if: runner.os == "Linux"
+        if: runner.os == 'Linux'
         run: |
           Rscript -e "drat.builder::build()"
 
       - name: Build binary packages (macOS)
-        if: runner.os == "macOS"
+        if: runner.os == 'macOS'
         run: |
           Rscript -e "drat.builder::build(install = TRUE,  no commit = TRUE)"
           Rscript build_binaries.R
           git commit -a -m 'add latest binary packages for macOS'
 
       - name: Build binary packages (Windows)
-        if: runner.os == "Windows"
+        if: runner.os == 'Windows'
         run: |
           Rscript -e "drat.builder::build(install = TRUE,  no commit = TRUE)"
           Rscript build_binaries.R
