@@ -16,3 +16,7 @@ binPkgs <- apply(pkgs, 1, function(p) {
 })
 
 drat::insertPackages(binPkgs, repodir = ".", action = "archive")
+
+if (interactive()) {
+  drat::pruneRepo(repopath = ".", type = "source", remove = "git")
+}
