@@ -38,7 +38,7 @@ jobs:
 
       - name: Install drat.builder + other packages
         run: |
-          remotes::install_githeb('PredictiveEcology/Require@development')
+          remotes::install_github('PredictiveEcology/Require@development')
           remotes::install_github('richfitz/drat.builder')
         shell: Rscript {0}
 
