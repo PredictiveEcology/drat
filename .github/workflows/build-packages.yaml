@@ -54,6 +54,8 @@ jobs:
         if: runner.os == 'macOS'
         run: |
           Rscript -e "drat.builder::build(install = TRUE,  no_commit = TRUE)"
+          cd packages/SpaDES.tools && git restore docs/reference/gaussMap.html && cd ../..
+          Rscript -e "drat.builder::build(no_fetch = TRUE, install = TRUE, no_commit = TRUE)"
           Rscript build_binaries.R
           git commit -a -m 'add latest binary packages for macOS'
 
@@ -61,6 +63,8 @@ jobs:
         if: runner.os == 'Windows'
         run: |
           Rscript -e "drat.builder::build(install = TRUE,  no_commit = TRUE)"
+          cd packages/SpaDES.tools && git restore docs/reference/gaussMap.html && cd ../..
+          Rscript -e "drat.builder::build(no_fetch = TRUE, install = TRUE, no_commit = TRUE)"
           Rscript build_binaries.R
           git commit -a -m 'add latest binary packages for Windows'
 

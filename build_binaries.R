@@ -1,7 +1,6 @@
 if (interactive()) {
   unlink(c("packages", "packages_src"), recursive = TRUE)
-
-  drat.builder::build(install = TRUE, no_commit = TRUE)
+  drat.builder::build(install = TRUE, no_commit = TRUE) ## no_fetch = TRUE
 }
 
 ### ---------------------------------------------------- ###
