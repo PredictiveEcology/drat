@@ -52,17 +52,16 @@ NeedsCompilation: yes
 Package: LandR
 Version: 0.0.12.9005
 Depends: R (>= 3.6)
-Imports: assertthat, crayon, data.table, fasterize, fpCompare,
-        gdalUtils, ggplot2, ggpubr, ggspatial, grDevices, httr, lme4,
-        magrittr, map, methods, MuMIn (>= 1.42.5), pemisc, quickPlot,
-        raster, RColorBrewer, Rcpp, RCurl, reproducible (>=
-        1.2.6.9003), scales, sf, sp, SpaDES.tools (>= 0.3.1.9000),
-        stats, tools, utils, XML
+Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
+        ggpubr, ggspatial, grDevices, httr, lme4, magrittr, map,
+        methods, MuMIn (>= 1.42.5), pemisc, quickPlot, raster,
+        RColorBrewer, Rcpp, RCurl, reproducible (>= 1.2.6.9003), sf,
+        sp, SpaDES.tools (>= 0.3.1.9000), stats, tools, utils, XML
 LinkingTo: Rcpp
 Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
         testthat
 License: GPL-3
-MD5sum: 059fe681dd6ee5563e4a74b2e61d0194
+MD5sum: 0f9b833e66751ba2d28352d055895d17
 NeedsCompilation: yes
 
 Package: LandR
@@ -134,6 +133,18 @@ Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
         (>= 1.0.2)
 License: GPL-3
 MD5sum: 7d305f8dd1b58e85b765439711af6ea1
+NeedsCompilation: no
+
+Package: quickPlot
+Version: 0.1.7.9002
+Depends: R (>= 3.6)
+Imports: backports, data.table (>= 1.10.4), fpCompare, ggplot2,
+        grDevices, grid, gridBase, igraph, methods, raster,
+        RColorBrewer, rgdal, rgeos, sp, stats
+Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
+        (>= 1.0.2)
+License: GPL-3
+MD5sum: b5a897b12492c4727f3b558650abd978
 NeedsCompilation: no
 
 Package: reproducible
