@@ -30,14 +30,14 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
 
-      - name: Install remotes
+      - name: Install remotes+devtools
         run: |
-          "install.packages('devtools')"
+          install.packages('devtools')
         shell: Rscript {0}
 
       - name: Install drat.builder
         run: |
-          "remotes::install_github('richfitz/drat.builder')"
+          remotes::install_github('richfitz/drat.builder')
         shell: Rscript {0}
 
       - name: Configure git
