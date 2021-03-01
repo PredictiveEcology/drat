@@ -99,7 +99,7 @@ Suggests: covr, crayon, fastdigest, fasterize, future, gdalUtils,
 License: GPL-3
 
 Package: Require
-Version: 0.0.11.9001
+Version: 0.0.11.9002
 Depends: R (>= 3.5)
 Imports: data.table (>= 1.10.4), methods, remotes, utils
 Suggests: covr, testit

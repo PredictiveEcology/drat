@@ -45,7 +45,7 @@ LinkingTo: Rcpp
 Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
         testthat
 License: GPL-3
-MD5sum: 6cde03ff28504a234583fa1619c05ee7
+MD5sum: 57b6113a0102322e553a672faeeb1664
 NeedsCompilation: yes
 
 Package: LandWebUtils
@@ -123,6 +123,15 @@ Imports: data.table (>= 1.10.4), methods, remotes, utils
 Suggests: covr, testit
 License: GPL-3
 MD5sum: 4211879fb601ef4e010f46c48eb933de
+NeedsCompilation: no
+
+Package: Require
+Version: 0.0.11.9002
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.10.4), methods, remotes, utils
+Suggests: covr, testit
+License: GPL-3
+MD5sum: 20444f92a398357f921cdd8cc77844bf
 NeedsCompilation: no
 
 Package: SpaDES.core
