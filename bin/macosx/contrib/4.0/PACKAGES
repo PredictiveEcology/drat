@@ -2,113 +2,109 @@ Package: amc
 Version: 0.1.6.9000
 Depends: R (>= 3.6)
 Imports: base64enc, data.table, datasets, digest, dismo, httr,
-       magrittr, methods, parallel, plyr, reproducible, raster
-       (>= 3.3-13), rgdal, sp, tools, utils
+        magrittr, methods, parallel, plyr, reproducible, raster (>=
+        3.3-13), rgdal, sp, tools, utils
 Suggests: covr, knitr, rmarkdown, rstudioapi, spelling, testthat
 License: GPL-3
-MD5sum: 1e244d510a06b062ffdc3c5f9dc3e7f0
+MD5sum: de8d03764765d1ee50bd5d98daa0a15f
 
 Package: CBMutils
 Version: 0.0.7.9001
 Depends: R (>= 3.5)
-Imports: data.table, fasterize, ggplot2, magrittr, methods,
-       quickPlot, raster, Rcpp, RSQLite, sf, sp, SpaDES.core,
-       stringr
+Imports: data.table, fasterize, ggplot2, magrittr, methods, quickPlot,
+        raster, Rcpp, RSQLite, sf, sp, SpaDES.core, stringr
 LinkingTo: Rcpp
 Suggests: covr, knitr, LandR, rmarkdown, testthat
 License: GPL-3
-MD5sum: ba7a22f0256b0e9271f9adbb0073a9f7
+MD5sum: aac11594988fcfe3254f997f949cd7ce
 
 Package: fireSenseUtils
 Version: 0.0.4.9042
 Depends: R (>= 3.6)
-Imports: crayon, data.table, DEoptim, EnvStats, fasterize,
-       future, kSamples, LandR, magrittr, mclust, methods, qs,
-       quickPlot, pemisc, pROC, purrr, raster, reproducible,
-       RhpcBLASctl, sf, sp, SpaDES.core, SpaDES.tools (>=
-       0.3.7), spatialEco, stats
-Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess,
-       Require, rgeos, rmarkdown, spatstat, spelling, testthat
+Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
+        kSamples, LandR, magrittr, mclust, methods, qs, quickPlot,
+        pemisc, pROC, purrr, raster, reproducible, RhpcBLASctl, sf, sp,
+        SpaDES.core, SpaDES.tools (>= 0.3.7), spatialEco, stats
+Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
+        rgeos, rmarkdown, spatstat, spelling, testthat
 License: GPL-3
-MD5sum: 10faf418de7f0ae6d2e82d6c9bdd99ef
+MD5sum: 45017908bef4098ee95a1f3ff8f3c112
 
 Package: LandR
 Version: 0.0.12.9006
 Depends: R (>= 3.6)
-Imports: crayon, data.table, fasterize, fpCompare, gdalUtils,
-       ggplot2, ggpubr, ggspatial, grDevices, httr, lme4,
-       magrittr, map, methods, MuMIn (>= 1.42.5), pemisc,
-       quickPlot, raster, RColorBrewer, Rcpp, RCurl,
-       reproducible (>= 1.2.6.9003), sf, SpaDES.tools (>=
-       0.3.1.9000), stats, tools, utils, XML
+Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
+        ggpubr, ggspatial, grDevices, httr, lme4, magrittr, map,
+        methods, MuMIn (>= 1.42.5), pemisc, quickPlot, raster,
+        RColorBrewer, Rcpp, RCurl, reproducible (>= 1.2.6.9003), sf,
+        SpaDES.tools (>= 0.3.1.9000), stats, tools, utils, XML
 LinkingTo: Rcpp
-Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown,
-       spelling, testthat
+Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
+        testthat
 License: GPL-3
-MD5sum: 73b2298979f400f23ead46ff039c7958
+MD5sum: 8de7c35f1753e31c2854e75485535e62
 
 Package: LandWebUtils
 Version: 0.1.2
 Depends: R (>= 3.6)
-Imports: data.table (>= 1.10.4), graphics, grDevices, dplyr,
-       LandR (>= 0.0.5), magrittr, map, methods, pemisc, raster,
-       reproducible, SpaDES.core, stats, tools, utils
+Imports: data.table (>= 1.10.4), graphics, grDevices, dplyr, LandR (>=
+        0.0.5), magrittr, map, methods, pemisc, raster, reproducible,
+        SpaDES.core, stats, tools, utils
 Suggests: covr
 License: GPL-3
-MD5sum: d5d10289ba7aa5944a6fd66e66ceeba6
+MD5sum: 62d2460b8bafb233991435c18e1e91f1
 
 Package: map
 Version: 0.0.3
 Depends: R (>= 3.6)
-Imports: backports, data.table (>= 1.10.4), fastdigest,
-       fasterize, gdalUtils, magrittr, methods, pemisc,
-       quickPlot, reproducible (>= 1.2.0.9010), raster (>=
-       2.8.4), rgeos, sf, sp, stats, tiler, utils
+Imports: backports, data.table (>= 1.10.4), fastdigest, fasterize,
+        gdalUtils, magrittr, methods, pemisc, quickPlot, reproducible
+        (>= 1.2.0.9010), raster (>= 2.8.4), rgeos, sf, sp, stats,
+        tiler, utils
 Suggests: covr, knitr, rgdal, rmarkdown, SpaDES.tools, testthat
 License: GPL-3
-MD5sum: dfd677ca60ef95221b5c1a6ba2a3b434
+MD5sum: 7634b047c8c82f89ebd9bade11d5d03c
 
 Package: pemisc
 Version: 0.0.3.9000
 Depends: R (>= 3.6)
 Imports: amc (>= 0.1.6.9000), assertthat, backports, data.table,
-       fasterize, igraph, methods, magrittr, parallel, peutils,
-       raster, RCurl, reproducible, sp, SpaDES.core, stats,
-       tools, utils
+        fasterize, igraph, methods, magrittr, parallel, peutils,
+        raster, RCurl, reproducible, sp, SpaDES.core, stats, tools,
+        utils
 Suggests: details, git2r, here, knitr, roxygen2, rmarkdown,
-       sessioninfo, testthat
+        sessioninfo, testthat
 License: GPL-3
-MD5sum: 4b448564b0bf07503d47f221e5be8afa
+MD5sum: 54f771ccde2b977eac82615670d14eab
 
 Package: peutils
 Version: 0.1.0
 Suggests: covr, spelling, testthat
 License: GPL-3
-MD5sum: 52e78e047ea3f8632a4c6a0a32190a83
+MD5sum: 2a642111afb3db3bdb4ad5d65369a374
 
 Package: quickPlot
 Version: 0.1.7.9002
 Depends: R (>= 3.6)
 Imports: backports, data.table (>= 1.10.4), fpCompare, ggplot2,
-       grDevices, grid, gridBase, igraph, methods, raster,
-       RColorBrewer, rgdal, rgeos, sp, stats
-Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling,
-       testthat (>= 1.0.2)
+        grDevices, grid, gridBase, igraph, methods, raster,
+        RColorBrewer, rgdal, rgeos, sp, stats
+Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
+        (>= 1.0.2)
 License: GPL-3
-MD5sum: 981abc1a472d21f5a7ba610765477568
+MD5sum: 19c176a8a3824d8ac41bce6345af72fd
 
 Package: reproducible
 Version: 1.2.6.9008
 Depends: R (>= 3.5)
 Imports: data.table (>= 1.10.4), DBI, digest, fpCompare, glue,
-       magrittr, methods, Require, raster, RSQLite, rlang, sp
-       (>= 1.4-2), utils
-Suggests: covr, crayon, fastdigest, fasterize, future,
-       gdalUtils, googledrive, httr, qs, knitr, parallel, RCurl
-       (>= 1.95-4.8), rgdal, rgeos, rmarkdown, sf, stats,
-       testthat
+        magrittr, methods, Require, raster, RSQLite, rlang, sp (>=
+        1.4-2), utils
+Suggests: covr, crayon, fastdigest, fasterize, future, gdalUtils,
+        googledrive, httr, qs, knitr, parallel, RCurl (>= 1.95-4.8),
+        rgdal, rgeos, rmarkdown, sf, stats, testthat
 License: GPL-3
-MD5sum: 32209cf3a1f685df37e21b60a02b8acf
+MD5sum: 50b96944f3c805a879607f2836b3bbc9
 
 Package: Require
 Version: 0.0.11.9005
@@ -116,22 +112,21 @@ Depends: R (>= 3.5)
 Imports: data.table (>= 1.10.4), methods, remotes, utils
 Suggests: covr, testit
 License: GPL-3
-MD5sum: f385698bf77bb9313b03482d72a74d61
+MD5sum: a840a1af5ce4e6f33cdf55b498c9a34b
 
 Package: SpaDES.core
 Version: 1.0.6.9016
-Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>=
-       1.2.1.9007)
-Imports: crayon, data.table (>= 1.10.4), fastdigest, igraph (>=
-       1.0.1), methods, qs (>= 0.21.1), raster (>= 2.5-8),
-       Require (>= 0.0.7), stats, utils, whisker
+Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.1.9007)
+Imports: crayon, data.table (>= 1.10.4), fastdigest, igraph (>= 1.0.1),
+        methods, qs (>= 0.21.1), raster (>= 2.5-8), Require (>= 0.0.7),
+        stats, utils, whisker
 Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
-       future.callr, ggplot2, googledrive, httr, knitr, logging,
-       magrittr, png, RandomFields (>= 3.3.4), RColorBrewer (>=
-       1.1-2), rgdal, rstudioapi, sp, SpaDES.tools (>= 0.2.0),
-       rmarkdown, tcltk, testthat (>= 1.0.2)
+        future.callr, ggplot2, googledrive, httr, knitr, logging,
+        magrittr, png, RandomFields (>= 3.3.4), RColorBrewer (>=
+        1.1-2), rgdal, rstudioapi, sp, SpaDES.tools (>= 0.2.0),
+        rmarkdown, tcltk, testthat (>= 1.0.2)
 License: GPL-3
-MD5sum: 4cf6afec289db717e7e75520591b2e73
+MD5sum: ed78105fdd5e97a0f0c81917d7f2e358
 
 Package: SpaDES.install
 Version: 0.0.4
@@ -139,34 +134,33 @@ Depends: R (>= 3.6)
 Imports: methods, Require, utils
 Suggests: data.table, reproducible, SpaDES.core
 License: GPL-3
-MD5sum: a0a0d39d1c1809b169279cf3506e8076
+MD5sum: 65266a110a0d4675c465a53c28035b13
 
 Package: SpaDES.tools
 Version: 0.3.7.9007
 Depends: R (>= 3.5.0)
 Imports: backports, checkmate (>= 1.8.2), CircStats (>= 0.2-4),
-       data.table (>= 1.10.4), fastmatch (>= 1.1-0), fpCompare
-       (>= 0.2.1), magrittr, methods, parallel, quickPlot,
-       raster (>= 2.5-8), Rcpp (>= 0.12.12), reproducible (>=
-       0.2.0), Require, rgeos, sp (>= 1.2-4), stats
+        data.table (>= 1.10.4), fastmatch (>= 1.1-0), fpCompare (>=
+        0.2.1), magrittr, methods, parallel, quickPlot, raster (>=
+        2.5-8), Rcpp (>= 0.12.12), reproducible (>= 0.2.0), Require,
+        rgeos, sp (>= 1.2-4), stats
 LinkingTo: Rcpp
-Suggests: animation, bit (>= 1.1-12), DBI, DEoptim (>= 2.2-4),
-       dplyr, dqrng, fasterize, ff (>= 2.2-13), ffbase (>=
-       0.12.3), gdalUtils, googledrive, knitr, mgcv,
-       RandomFields (>= 3.1.24), RColorBrewer (>= 1.1-2),
-       rmarkdown, sf, testthat (>= 1.0.2), covr
+Suggests: animation, bit (>= 1.1-12), DBI, DEoptim (>= 2.2-4), dplyr,
+        dqrng, fasterize, ff (>= 2.2-13), ffbase (>= 0.12.3),
+        gdalUtils, googledrive, knitr, mgcv, RandomFields (>= 3.1.24),
+        RColorBrewer (>= 1.1-2), rmarkdown, sf, testthat (>= 1.0.2),
+        covr
 License: GPL-3
-MD5sum: e44639f557177866cdca3313d384a43e
+MD5sum: 0e84ade3c7941bc56e320eff6a31a26b
 
 Package: usefulFuns
 Version: 0.1.0
 Depends: R (>= 3.6)
-Imports: animation, crayon, data.table, effsize, fasterize,
-       future, future.apply, ggplot2, googledrive, gridExtra,
-       hexSticker, LandR, magrittr, methods, pryr, quickPlot,
-       raster, rasterVis, RColorBrewer, remotes, reproducible,
-       sp, sf, showtext, SpaDES.core, SpaDES.tools, stats,
-       sysfonts
+Imports: animation, crayon, data.table, effsize, fasterize, future,
+        future.apply, ggplot2, googledrive, gridExtra, hexSticker,
+        LandR, magrittr, methods, pryr, quickPlot, raster, rasterVis,
+        RColorBrewer, remotes, reproducible, sp, sf, showtext,
+        SpaDES.core, SpaDES.tools, stats, sysfonts
 Suggests: covr, lintr, spelling
 License: GPL (>= 2)
-MD5sum: 6e4a1c5adc6f46082af1e386a1ba70f1
+MD5sum: 8dd420cbfbe4191fb56af57c53f6e4f5
