@@ -15,7 +15,7 @@ binPkgs <- apply(pkgs, 1, function(p) {
   devtools::build(pkg = pkg, path = "packages", binary = TRUE)
 })
 
-drat::insertPackages(binPkgs, repodir = ".", action = "archive")
+drat::insertPackages(binPkgs, repodir = ".", action = "prune")
 
 if (interactive()) {
   drat::pruneRepo(repopath = ".", type = "source", remove = "git")
