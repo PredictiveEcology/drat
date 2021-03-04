@@ -10,5 +10,6 @@ PredictiveEcology/quickPlot@development
 PredictiveEcology/Require@development
 PredictiveEcology/reproducible@development
 PredictiveEcology/SpaDES.core@development
+PredictiveEcology/SpaDES.install
 PredictiveEcology/SpaDES.tools@development
 PredictiveEcology/usefulFuns@development
