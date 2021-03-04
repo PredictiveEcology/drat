@@ -6,7 +6,7 @@ Imports: base64enc, data.table, datasets, digest, dismo, httr,
         3.3-13), rgdal, sp, tools, utils
 Suggests: covr, knitr, rmarkdown, rstudioapi, spelling, testthat
 License: GPL-3
-MD5sum: 1841016a2cc46df635557bf46b2a172e
+MD5sum: 114b36cba7d6f16479e4605f55991187
 
 Package: CBMutils
 Version: 0.0.7.9001
@@ -16,7 +16,7 @@ Imports: data.table, fasterize, ggplot2, magrittr, methods, quickPlot,
 LinkingTo: Rcpp
 Suggests: covr, knitr, LandR, rmarkdown, testthat
 License: GPL-3
-MD5sum: f9efd4f7f0e373f4bf269e00b126734b
+MD5sum: 84f884939ba2ad25b01480267981cb9f
 
 Package: fireSenseUtils
 Version: 0.0.4.9042
@@ -28,7 +28,7 @@ Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
 Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
         rgeos, rmarkdown, spatstat, spelling, testthat
 License: GPL-3
-MD5sum: c3be5fe0bd62cabac07a3a10a0e42052
+MD5sum: e8bc7b8fae5e227909b6922a823f90a5
 
 Package: LandR
 Version: 0.0.12.9006
@@ -42,7 +42,7 @@ LinkingTo: Rcpp
 Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
         testthat
 License: GPL-3
-MD5sum: 689b18ce59acd25e520300a694e2c552
+MD5sum: 5406a11bf604b05c9af0dcf4ddc963b6
 
 Package: LandWebUtils
 Version: 0.1.2
@@ -52,7 +52,7 @@ Imports: data.table (>= 1.10.4), graphics, grDevices, dplyr, LandR (>=
         SpaDES.core, stats, tools, utils
 Suggests: covr
 License: GPL-3
-MD5sum: dbfe98d5a394f8469cf1c6f297ee0fe2
+MD5sum: 9312e5cb663e97f85b1d5b259fc2b739
 
 Package: map
 Version: 0.0.3
@@ -63,7 +63,7 @@ Imports: backports, data.table (>= 1.10.4), fastdigest, fasterize,
         tiler, utils
 Suggests: covr, knitr, rgdal, rmarkdown, SpaDES.tools, testthat
 License: GPL-3
-MD5sum: 38f66fe35987fb8b7f4c78491f8a6219
+MD5sum: cfcbb8e3a1e0a4692c6654696735bc10
 
 Package: pemisc
 Version: 0.0.3.9000
@@ -75,13 +75,13 @@ Imports: amc (>= 0.1.6.9000), assertthat, backports, data.table,
 Suggests: details, git2r, here, knitr, roxygen2, rmarkdown,
         sessioninfo, testthat
 License: GPL-3
-MD5sum: 829842db03e06d67a10a0ab1ac851977
+MD5sum: 6d2aef0a219398846248aa07c86efa35
 
 Package: peutils
 Version: 0.1.0
 Suggests: covr, spelling, testthat
 License: GPL-3
-MD5sum: 795bfc91492ef5a1d85ea67d797a29f2
+MD5sum: 5051e0939345991f5ee30108bce7cda7
 
 Package: quickPlot
 Version: 0.1.7.9002
@@ -92,7 +92,7 @@ Imports: backports, data.table (>= 1.10.4), fpCompare, ggplot2,
 Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
         (>= 1.0.2)
 License: GPL-3
-MD5sum: cf9a5e47fbf83837b46eb2cbc8fbcb80
+MD5sum: f4abe10f8314ba63c8db9b208145c932
 
 Package: reproducible
 Version: 1.2.6.9008
@@ -104,7 +104,7 @@ Suggests: covr, crayon, fastdigest, fasterize, future, gdalUtils,
         googledrive, httr, qs, knitr, parallel, RCurl (>= 1.95-4.8),
         rgdal, rgeos, rmarkdown, sf, stats, testthat
 License: GPL-3
-MD5sum: fef843db4647779fa384bdb4b44e431b
+MD5sum: 6820a628f514fce458079db17d247b60
 
 Package: Require
 Version: 0.0.11.9005
@@ -112,7 +112,7 @@ Depends: R (>= 3.5)
 Imports: data.table (>= 1.10.4), methods, remotes, utils
 Suggests: covr, testit
 License: GPL-3
-MD5sum: 27d703f0bd63328e1c4320e4607e04dd
+MD5sum: 1c4b5f0514f7ce979233e9c795a3c6b1
 
 Package: SpaDES.core
 Version: 1.0.6.9016
@@ -126,7 +126,7 @@ Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
         1.1-2), rgdal, rstudioapi, sp, SpaDES.tools (>= 0.2.0),
         rmarkdown, tcltk, testthat (>= 1.0.2)
 License: GPL-3
-MD5sum: f20248f2df5b733bb76427c44a19b953
+MD5sum: 67e99b5545a7e72d541ca282623eda13
 
 Package: SpaDES.install
 Version: 0.0.4
@@ -134,7 +134,7 @@ Depends: R (>= 3.6)
 Imports: methods, Require, utils
 Suggests: data.table, reproducible, SpaDES.core
 License: GPL-3
-MD5sum: 50c0e99b91541f572b28adbae81b50a8
+MD5sum: 292786e65b37167f5beb2fdac17fcdf8
 
 Package: SpaDES.tools
 Version: 0.3.7.9007
@@ -151,7 +151,7 @@ Suggests: animation, bit (>= 1.1-12), DBI, DEoptim (>= 2.2-4), dplyr,
         RColorBrewer (>= 1.1-2), rmarkdown, sf, testthat (>= 1.0.2),
         covr
 License: GPL-3
-MD5sum: 1c8672e35608e08f5b7abb2837c63d80
+MD5sum: fa37cf88a68dbe337111739734001580
 
 Package: usefulFuns
 Version: 0.1.0
@@ -163,4 +163,4 @@ Imports: animation, crayon, data.table, effsize, fasterize, future,
         SpaDES.core, SpaDES.tools, stats, sysfonts
 Suggests: covr, lintr, spelling
 License: GPL (>= 2)
-MD5sum: afec9db98b54ebe1df996dca2a5ab12f
+MD5sum: 132e9019aeff037352c964acc2492055
