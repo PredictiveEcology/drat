@@ -153,6 +153,15 @@ License: GPL-3
 MD5sum: 4211879fb601ef4e010f46c48eb933de
 NeedsCompilation: no
 
+Package: Require
+Version: 0.0.11.9005
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.10.4), methods, remotes, utils
+Suggests: covr, testit
+License: GPL-3
+MD5sum: cfde4d6ee115777520259a3bcfc609bf
+NeedsCompilation: no
+
 Package: SpaDES.core
 Version: 1.0.6.9015
 Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.1.9007)
