@@ -17,7 +17,7 @@ A `drat` repository of development versions of R packages developed by the Predi
     
     ## alternatively, add 'https://drat.predictiveecology.org' to your 'repos' list via options()
     # r <- getOption("repos")
-    # options(repos = c(r, PE = "https://drat.predictiveecology.org"))
+    # options(repos = c(r, PredictiveEcology = "https://drat.predictiveecology.org"))
     ```
     
 3. install packages, e.g.
