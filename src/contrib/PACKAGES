@@ -205,6 +205,15 @@ License: GPL-3
 MD5sum: c6e0fa1b7d7e439a9fb3261e59398b53
 NeedsCompilation: no
 
+Package: SpaDES.install
+Version: 0.0.4
+Depends: R (>= 3.6)
+Imports: methods, Require, utils
+Suggests: data.table, reproducible, SpaDES.core
+License: GPL-3
+MD5sum: 46a3dc55dedeeb8170152e8c0532e96a
+NeedsCompilation: no
+
 Package: SpaDES.tools
 Version: 0.3.7.9007
 Depends: R (>= 3.5.0)
