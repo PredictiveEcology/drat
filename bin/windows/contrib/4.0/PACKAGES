@@ -18,7 +18,7 @@ License: GPL-3
 Archs: x64
 
 Package: fireSenseUtils
-Version: 0.0.4.9042
+Version: 0.0.4.9048
 Depends: R (>= 3.6)
 Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
         kSamples, LandR, magrittr, mclust, methods, qs, quickPlot,
@@ -88,7 +88,7 @@ Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
 License: GPL-3
 
 Package: reproducible
-Version: 1.2.6.9008
+Version: 1.2.6.9009
 Depends: R (>= 3.5)
 Imports: data.table (>= 1.10.4), DBI, digest, fpCompare, glue,
         magrittr, methods, Require, raster, RSQLite, rlang, sp (>=
