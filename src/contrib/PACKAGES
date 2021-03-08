@@ -129,6 +129,19 @@ License: GPL-3
 MD5sum: ee23a68722da7036042216a667cb6044
 NeedsCompilation: no
 
+Package: reproducible
+Version: 1.2.6.9009
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.10.4), DBI, digest, fpCompare, glue,
+        magrittr, methods, Require, raster, RSQLite, rlang, sp (>=
+        1.4-2), utils
+Suggests: covr, crayon, fastdigest, fasterize, future, gdalUtils,
+        googledrive, httr, qs, knitr, parallel, RCurl (>= 1.95-4.8),
+        rgdal, rgeos, rmarkdown, sf, stats, testthat
+License: GPL-3
+MD5sum: ce98a36a648f2c459253dc8557d51401
+NeedsCompilation: no
+
 Package: Require
 Version: 0.0.11.9001
 Depends: R (>= 3.5)
