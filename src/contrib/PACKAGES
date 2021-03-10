@@ -110,6 +110,16 @@ License: GPL-3
 MD5sum: a7c98d22a33aa432f08509ad0f1850e5
 NeedsCompilation: no
 
+Package: pedev
+Version: 0.0.1.9004
+Depends: R (>= 3.3)
+Imports: crayon, data.table, devtools, digest, igraph, methods,
+        reproducible, testthat, tools
+Suggests: covr, knitr, rmarkdown
+License: GPL-3
+MD5sum: ea60b12c9a679ce2eabc297a67823310
+NeedsCompilation: no
+
 Package: pemisc
 Version: 0.0.3.9000
 Depends: R (>= 3.6)
