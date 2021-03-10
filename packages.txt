@@ -4,6 +4,7 @@ PredictiveEcology/fireSenseUtils@development
 PredictiveEcology/LandR@development
 PredictiveEcology/LandWebUtils@development
 PredictiveEcology/map@development
+PredictiveEcology/pedev@development
 PredictiveEcology/pemisc@development
 PredictiveEcology/peutils@development
 PredictiveEcology/quickPlot@development
