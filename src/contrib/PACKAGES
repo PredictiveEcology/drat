@@ -34,7 +34,7 @@ MD5sum: d325bd4041ecde4c1da63fa2492132e8
 NeedsCompilation: no
 
 Package: fireSenseUtils
-Version: 0.0.4.9048
+Version: 0.0.4.9049
 Depends: R (>= 3.6)
 Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
         kSamples, LandR, magrittr, mclust, methods, qs, quickPlot,
@@ -43,7 +43,7 @@ Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
 Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
         rgeos, rmarkdown, spatstat, spelling, testthat
 License: GPL-3
-MD5sum: dfd353a3b21f7e54923e55559e94c27b
+MD5sum: eacd2e46ae5dca579b206bfa0d02d3c5
 NeedsCompilation: no
 
 Package: LandR
@@ -127,19 +127,6 @@ Suggests: covr, crayon, fastdigest, fasterize, future, gdalUtils,
         rgdal, rgeos, rmarkdown, sf, stats, testthat
 License: GPL-3
 MD5sum: ee23a68722da7036042216a667cb6044
-NeedsCompilation: no
-
-Package: reproducible
-Version: 1.2.6.9009
-Depends: R (>= 3.5)
-Imports: data.table (>= 1.10.4), DBI, digest, fpCompare, glue,
-        magrittr, methods, Require, raster, RSQLite, rlang, sp (>=
-        1.4-2), utils
-Suggests: covr, crayon, fastdigest, fasterize, future, gdalUtils,
-        googledrive, httr, qs, knitr, parallel, RCurl (>= 1.95-4.8),
-        rgdal, rgeos, rmarkdown, sf, stats, testthat
-License: GPL-3
-MD5sum: 272e80704fefb6e1807f74b7c6539ec6
 NeedsCompilation: no
 
 Package: Require
