@@ -18,7 +18,7 @@ License: GPL-3
 Archs: x64
 
 Package: fireSenseUtils
-Version: 0.0.4.9048
+Version: 0.0.4.9049
 Depends: R (>= 3.6)
 Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
         kSamples, LandR, magrittr, mclust, methods, qs, quickPlot,
@@ -29,7 +29,7 @@ Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
 License: GPL-3
 
 Package: LandR
-Version: 0.0.12.9006
+Version: 1.0.0.9000
 Depends: R (>= 3.6)
 Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
         ggpubr, ggspatial, grDevices, httr, lme4, magrittr, map,
@@ -43,7 +43,7 @@ License: GPL-3
 Archs: x64
 
 Package: LandWebUtils
-Version: 0.1.2
+Version: 0.1.3
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.10.4), graphics, grDevices, dplyr, LandR (>=
         0.0.5), magrittr, map, methods, pemisc, raster, reproducible,
@@ -59,6 +59,14 @@ Imports: backports, data.table (>= 1.10.4), fastdigest, fasterize,
         (>= 1.2.0.9010), raster (>= 2.8.4), rgeos, sf, sp, stats,
         tiler, utils
 Suggests: covr, knitr, rgdal, rmarkdown, SpaDES.tools, testthat
+License: GPL-3
+
+Package: pedev
+Version: 0.0.1.9004
+Depends: R (>= 3.3)
+Imports: crayon, data.table, devtools, digest, igraph, methods,
+        reproducible, testthat, tools
+Suggests: covr, knitr, rmarkdown
 License: GPL-3
 
 Package: pemisc
@@ -106,7 +114,7 @@ Suggests: covr, testit
 License: GPL-3
 
 Package: SpaDES.core
-Version: 1.0.6.9016
+Version: 1.0.6.9018
 Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.1.9007)
 Imports: crayon, data.table (>= 1.10.4), fastdigest, igraph (>= 1.0.1),
         methods, qs (>= 0.21.1), raster (>= 2.5-8), Require (>= 0.0.7),
