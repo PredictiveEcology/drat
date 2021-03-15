@@ -96,7 +96,7 @@ Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
 License: GPL-3
 
 Package: reproducible
-Version: 1.2.6.9009
+Version: 1.2.6.9010
 Depends: R (>= 3.5)
 Imports: data.table (>= 1.10.4), DBI, digest, fpCompare, glue,
         magrittr, methods, Require, raster, RSQLite, rlang, sp (>=
@@ -114,7 +114,7 @@ Suggests: covr, testit
 License: GPL-3
 
 Package: SpaDES.core
-Version: 1.0.6.9018
+Version: 1.0.6.9019
 Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.1.9007)
 Imports: crayon, data.table (>= 1.10.4), fastdigest, igraph (>= 1.0.1),
         methods, qs (>= 0.21.1), raster (>= 2.5-8), Require (>= 0.0.7),
