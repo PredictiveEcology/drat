@@ -20,6 +20,12 @@ License: GPL-3
 MD5sum: a0ef9258c4dfe48f320262d197d9b7dc
 NeedsCompilation: yes
 
+Package: fastshp
+Version: 0.1-2
+License: GPL-2
+MD5sum: 1f05ea5a96600c4414dcab9eec406237
+NeedsCompilation: yes
+
 Package: fireSenseUtils
 Version: 0.0.4.9039
 Depends: R (>= 3.6)
