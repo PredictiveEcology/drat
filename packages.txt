@@ -14,3 +14,4 @@ PredictiveEcology/SpaDES.core@development
 PredictiveEcology/SpaDES.install
 PredictiveEcology/SpaDES.tools@development
 PredictiveEcology/usefulFuns@development
+s-u/fastshp
