@@ -20,12 +20,6 @@ License: GPL-3
 MD5sum: a0ef9258c4dfe48f320262d197d9b7dc
 NeedsCompilation: yes
 
-Package: fastshp
-Version: 0.1-2
-License: GPL-2
-MD5sum: e20c322406c32e0cd413135bd47e4342
-NeedsCompilation: yes
-
 Package: fireSenseUtils
 Version: 0.0.4.9039
 Depends: R (>= 3.6)
@@ -40,7 +34,7 @@ MD5sum: d325bd4041ecde4c1da63fa2492132e8
 NeedsCompilation: no
 
 Package: fireSenseUtils
-Version: 0.0.4.9051
+Version: 0.0.4.9052
 Depends: R (>= 3.6)
 Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
         kSamples, LandR, magrittr, mclust, methods, qs, quickPlot,
@@ -49,7 +43,7 @@ Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
 Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
         rgeos, rmarkdown, spatstat, spelling, testthat
 License: GPL-3
-MD5sum: 192e3e1f5ca8aead92215c43113f34be
+MD5sum: 923842e5db590f4f2efaaf527d134c8d
 NeedsCompilation: no
 
 Package: LandR
@@ -65,21 +59,6 @@ Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
         testthat
 License: GPL-3
 MD5sum: 57b6113a0102322e553a672faeeb1664
-NeedsCompilation: yes
-
-Package: LandR
-Version: 1.0.0.9000
-Depends: R (>= 3.6)
-Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
-        ggpubr, ggspatial, grDevices, httr, lme4, magrittr, map,
-        methods, MuMIn (>= 1.42.5), pemisc, quickPlot, raster,
-        RColorBrewer, Rcpp, RCurl, reproducible (>= 1.2.6.9003), sf,
-        SpaDES.tools (>= 0.3.1.9000), stats, tools, utils, XML
-LinkingTo: Rcpp
-Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
-        testthat
-License: GPL-3
-MD5sum: 0b1b3b68017e8fd6ff64daded491e0e0
 NeedsCompilation: yes
 
 Package: LandWebUtils
@@ -172,15 +151,6 @@ Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
         rmarkdown, tcltk, testthat (>= 1.0.2)
 License: GPL-3
 MD5sum: ccd7b7b912c4edc772a7fc195f0f3e8a
-NeedsCompilation: no
-
-Package: SpaDES.install
-Version: 0.0.4
-Depends: R (>= 3.6)
-Imports: methods, Require, utils
-Suggests: data.table, reproducible, SpaDES.core
-License: GPL-3
-MD5sum: 4cb707485f82fec3737586fc7be1489e
 NeedsCompilation: no
 
 Package: SpaDES.tools

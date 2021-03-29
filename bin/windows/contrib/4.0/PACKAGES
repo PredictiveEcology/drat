@@ -23,7 +23,7 @@ License: GPL-2
 Archs: x64
 
 Package: fireSenseUtils
-Version: 0.0.4.9051
+Version: 0.0.4.9052
 Depends: R (>= 3.6)
 Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
         kSamples, LandR, magrittr, mclust, methods, qs, quickPlot,
