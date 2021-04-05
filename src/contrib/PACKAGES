@@ -9,6 +9,18 @@ License: GPL-3
 MD5sum: 2f6c6978ea39eb57ba72f6ebf196c4d7
 NeedsCompilation: no
 
+Package: amc
+Version: 0.2.0
+Depends: R (>= 3.6)
+Imports: base64enc, data.table, datasets, digest, dismo, httr,
+        magrittr, methods, parallel, plyr, reproducible, raster (>=
+        3.3-13), rgdal, sp, tools, utils
+Suggests: covr, knitr, rmarkdown, rstudioapi, slackr, spelling,
+        testthat
+License: GPL-3
+MD5sum: 937cf4cb00a16ef01df41fe677f48fdc
+NeedsCompilation: no
+
 Package: CBMutils
 Version: 0.0.7.9001
 Depends: R (>= 3.5)
@@ -31,19 +43,6 @@ Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
         rgeos, rmarkdown, spatstat, spelling, testthat
 License: GPL-3
 MD5sum: d325bd4041ecde4c1da63fa2492132e8
-NeedsCompilation: no
-
-Package: fireSenseUtils
-Version: 0.0.4.9052
-Depends: R (>= 3.6)
-Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
-        kSamples, LandR, magrittr, mclust, methods, qs, quickPlot,
-        pemisc, pROC, purrr, raster, reproducible, RhpcBLASctl, sf, sp,
-        SpaDES.core, SpaDES.tools (>= 0.3.7), spatialEco, stats
-Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
-        rgeos, rmarkdown, spatstat, spelling, testthat
-License: GPL-3
-MD5sum: 923842e5db590f4f2efaaf527d134c8d
 NeedsCompilation: no
 
 Package: LandR
