@@ -62,6 +62,21 @@ License: GPL-3
 MD5sum: 57b6113a0102322e553a672faeeb1664
 NeedsCompilation: yes
 
+Package: LandR
+Version: 1.0.0.9003
+Depends: R (>= 3.6)
+Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
+        ggpubr, ggspatial, grDevices, httr, lme4, magrittr, map,
+        methods, MuMIn (>= 1.42.5), pemisc, quickPlot, raster,
+        RColorBrewer, Rcpp, RCurl, reproducible (>= 1.2.6.9003), sf,
+        SpaDES.tools (>= 0.3.1.9000), stats, tools, utils, XML
+LinkingTo: Rcpp
+Suggests: covr, googledrive, knitr, RandomFields, roxygen2, rmarkdown,
+        spelling, testthat
+License: GPL-3
+MD5sum: 2a150fcda6b2f2c36cd8090b05d96da8
+NeedsCompilation: yes
+
 Package: LandWebUtils
 Version: 0.1.2
 Depends: R (>= 3.6)
