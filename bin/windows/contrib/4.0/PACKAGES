@@ -1,10 +1,11 @@
 Package: amc
-Version: 0.1.6.9000
+Version: 0.2.0
 Depends: R (>= 3.6)
 Imports: base64enc, data.table, datasets, digest, dismo, httr,
         magrittr, methods, parallel, plyr, reproducible, raster (>=
         3.3-13), rgdal, sp, tools, utils
-Suggests: covr, knitr, rmarkdown, rstudioapi, spelling, testthat
+Suggests: covr, knitr, rmarkdown, rstudioapi, slackr, spelling,
+        testthat
 License: GPL-3
 
 Package: CBMutils
@@ -23,18 +24,19 @@ License: GPL-2
 Archs: x64
 
 Package: fireSenseUtils
-Version: 0.0.4.9052
+Version: 0.0.4.9070
 Depends: R (>= 3.6)
-Imports: crayon, data.table, DEoptim, EnvStats, fasterize, future,
-        kSamples, LandR, magrittr, mclust, methods, qs, quickPlot,
-        pemisc, pROC, purrr, raster, reproducible, RhpcBLASctl, sf, sp,
-        SpaDES.core, SpaDES.tools (>= 0.3.7), spatialEco, stats
+Imports: crayon, data.table, DEoptim, EnvStats, fasterize, fpCompare,
+        future, kSamples, LandR (>= 1.0.0.9001), magrittr, mclust,
+        methods, qs, quickPlot, pemisc, pROC, purrr, raster,
+        reproducible, RhpcBLASctl, sf, sp, SpaDES.core, SpaDES.tools
+        (>= 0.3.7), spatialEco, stats
 Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
         rgeos, rmarkdown, spatstat, spelling, testthat
 License: GPL-3
 
 Package: LandR
-Version: 1.0.0.9000
+Version: 1.0.0.9003
 Depends: R (>= 3.6)
 Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
         ggpubr, ggspatial, grDevices, httr, lme4, magrittr, map,
@@ -42,8 +44,8 @@ Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
         RColorBrewer, Rcpp, RCurl, reproducible (>= 1.2.6.9003), sf,
         SpaDES.tools (>= 0.3.1.9000), stats, tools, utils, XML
 LinkingTo: Rcpp
-Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
-        testthat
+Suggests: covr, googledrive, knitr, RandomFields, roxygen2, rmarkdown,
+        spelling, testthat
 License: GPL-3
 Archs: x64
 
@@ -101,7 +103,7 @@ Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
 License: GPL-3
 
 Package: reproducible
-Version: 1.2.6.9010
+Version: 1.2.6.9015
 Depends: R (>= 3.5)
 Imports: data.table (>= 1.10.4), DBI, digest, fpCompare, glue,
         magrittr, methods, Require, raster, RSQLite, rlang, sp (>=
@@ -119,8 +121,8 @@ Suggests: covr, testit
 License: GPL-3
 
 Package: SpaDES.core
-Version: 1.0.6.9020
-Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.1.9007)
+Version: 1.0.6.9025
+Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.6.9014)
 Imports: crayon, data.table (>= 1.10.4), fastdigest, igraph (>= 1.0.1),
         methods, qs (>= 0.21.1), raster (>= 2.5-8), Require (>= 0.0.7),
         stats, utils, whisker
