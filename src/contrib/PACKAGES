@@ -31,6 +31,17 @@ License: GPL-3
 MD5sum: a0ef9258c4dfe48f320262d197d9b7dc
 NeedsCompilation: yes
 
+Package: CBMutils
+Version: 0.0.7.9002
+Depends: R (>= 3.5)
+Imports: data.table, fasterize, ggplot2, magrittr, methods, quickPlot,
+        raster, Rcpp, RSQLite, sf, sp, SpaDES.core, stringr
+LinkingTo: Rcpp
+Suggests: covr, knitr, LandR, rmarkdown, testthat
+License: GPL-3
+MD5sum: b9e4306e4b5e1b1c748d843b66e4e341
+NeedsCompilation: yes
+
 Package: fireSenseUtils
 Version: 0.0.4.9039
 Depends: R (>= 3.6)
