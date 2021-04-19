@@ -120,9 +120,9 @@ Imports: backports, data.table (>= 1.10.4), fpCompare, ggplot2,
         grDevices, grid, gridBase, igraph, methods, raster,
         RColorBrewer, rgdal, rgeos, sp, stats
 Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
-        (>= 1.0.2)
+        (>= 1.0.2), visualTest
 License: GPL-3
-MD5sum: b5a897b12492c4727f3b558650abd978
+MD5sum: b02df967ec44919de0505995ff9b1cc9
 NeedsCompilation: no
 
 Package: reproducible
