@@ -1,15 +1,14 @@
 Package: amc
-Version: 0.2.0
+Version: 0.2.1
 Depends: R (>= 3.6)
 Imports: base64enc, data.table, datasets, digest, dismo, httr,
         magrittr, methods, parallel, plyr, reproducible, raster (>=
         3.3-13), rgdal, sp, tools, utils
-Suggests: covr, knitr, rmarkdown, rstudioapi, slackr, spelling,
-        testthat
+Suggests: covr, knitr, rmarkdown, rstudioapi, spelling, testthat
 License: GPL-3
 
 Package: CBMutils
-Version: 0.0.7.9001
+Version: 0.0.7.9002
 Depends: R (>= 3.5)
 Imports: data.table, fasterize, ggplot2, magrittr, methods, quickPlot,
         raster, Rcpp, RSQLite, sf, sp, SpaDES.core, stringr
@@ -99,7 +98,7 @@ Imports: backports, data.table (>= 1.10.4), fpCompare, ggplot2,
         grDevices, grid, gridBase, igraph, methods, raster,
         RColorBrewer, rgdal, rgeos, sp, stats
 Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
-        (>= 1.0.2)
+        (>= 1.0.2), visualTest
 License: GPL-3
 
 Package: reproducible
@@ -121,7 +120,7 @@ Suggests: covr, testit
 License: GPL-3
 
 Package: SpaDES.core
-Version: 1.0.6.9025
+Version: 1.0.6.9026
 Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.6.9014)
 Imports: crayon, data.table (>= 1.10.4), fastdigest, igraph (>= 1.0.1),
         methods, qs (>= 0.21.1), raster (>= 2.5-8), Require (>= 0.0.7),
