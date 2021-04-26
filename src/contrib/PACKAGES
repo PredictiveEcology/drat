@@ -9,17 +9,6 @@ License: GPL-3
 MD5sum: 2f6c6978ea39eb57ba72f6ebf196c4d7
 NeedsCompilation: no
 
-Package: amc
-Version: 0.2.1
-Depends: R (>= 3.6)
-Imports: base64enc, data.table, datasets, digest, dismo, httr,
-        magrittr, methods, parallel, plyr, reproducible, raster (>=
-        3.3-13), rgdal, sp, tools, utils
-Suggests: covr, knitr, rmarkdown, rstudioapi, spelling, testthat
-License: GPL-3
-MD5sum: a9b3c2feab8c19aad589385cda59032f
-NeedsCompilation: no
-
 Package: CBMutils
 Version: 0.0.7.9001
 Depends: R (>= 3.5)
@@ -29,17 +18,6 @@ LinkingTo: Rcpp
 Suggests: covr, knitr, LandR, rmarkdown, testthat
 License: GPL-3
 MD5sum: a0ef9258c4dfe48f320262d197d9b7dc
-NeedsCompilation: yes
-
-Package: CBMutils
-Version: 0.0.7.9002
-Depends: R (>= 3.5)
-Imports: data.table, fasterize, ggplot2, magrittr, methods, quickPlot,
-        raster, Rcpp, RSQLite, sf, sp, SpaDES.core, stringr
-LinkingTo: Rcpp
-Suggests: covr, knitr, LandR, rmarkdown, testthat
-License: GPL-3
-MD5sum: ae51485dea83b4f92f708d6dd8e333cd
 NeedsCompilation: yes
 
 Package: fireSenseUtils
@@ -138,19 +116,6 @@ License: GPL-3
 MD5sum: ee23a68722da7036042216a667cb6044
 NeedsCompilation: no
 
-Package: reproducible
-Version: 1.2.6.9015
-Depends: R (>= 3.5)
-Imports: data.table (>= 1.10.4), DBI, digest, fpCompare, glue,
-        magrittr, methods, Require, raster, RSQLite, rlang, sp (>=
-        1.4-2), utils
-Suggests: covr, crayon, fastdigest, fasterize, future, gdalUtils,
-        googledrive, httr, qs, knitr, parallel, RCurl (>= 1.95-4.8),
-        rgdal, rgeos, rmarkdown, sf, stats, testthat
-License: GPL-3
-MD5sum: 43be9075cfded59a9d862976604b0e53
-NeedsCompilation: no
-
 Package: Require
 Version: 0.0.11.9001
 Depends: R (>= 3.5)
@@ -158,15 +123,6 @@ Imports: data.table (>= 1.10.4), methods, remotes, utils
 Suggests: covr, testit
 License: GPL-3
 MD5sum: 4211879fb601ef4e010f46c48eb933de
-NeedsCompilation: no
-
-Package: Require
-Version: 0.0.11.9005
-Depends: R (>= 3.5)
-Imports: data.table (>= 1.10.4), methods, remotes, utils
-Suggests: covr, testit
-License: GPL-3
-MD5sum: e92f0e761ba0ceec643b0bacfb856a2c
 NeedsCompilation: no
 
 Package: SpaDES.core
@@ -196,7 +152,7 @@ Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
         1.1-2), rgdal, rstudioapi, sp, SpaDES.tools (>= 0.2.0),
         rmarkdown, tcltk, testthat (>= 1.0.2)
 License: GPL-3
-MD5sum: d617f5dca0207545a77d47ce1c725cde
+MD5sum: fd3e5fed721b234ccf35a0766391985f
 NeedsCompilation: no
 
 Package: SpaDES.tools
