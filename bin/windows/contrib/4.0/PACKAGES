@@ -23,10 +23,10 @@ License: GPL-2
 Archs: x64
 
 Package: fireSenseUtils
-Version: 0.0.4.9070
+Version: 0.0.4.9080
 Depends: R (>= 3.6)
 Imports: crayon, data.table, DEoptim, EnvStats, fasterize, fpCompare,
-        future, kSamples, LandR (>= 1.0.0.9001), magrittr, mclust,
+        future, kSamples, LandR (>= 1.0.0.9002), magrittr, mclust,
         methods, qs, quickPlot, pemisc, pROC, purrr, raster,
         reproducible, RhpcBLASctl, sf, sp, SpaDES.core, SpaDES.tools
         (>= 0.3.7), spatialEco, stats
@@ -76,7 +76,7 @@ Suggests: covr, knitr, rmarkdown
 License: GPL-3
 
 Package: pemisc
-Version: 0.0.3.9000
+Version: 0.0.3.9001
 Depends: R (>= 3.6)
 Imports: amc (>= 0.1.6.9000), assertthat, backports, data.table,
         fasterize, igraph, methods, magrittr, parallel, peutils,
@@ -102,7 +102,7 @@ Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
 License: GPL-3
 
 Package: reproducible
-Version: 1.2.6.9015
+Version: 1.2.6.9017
 Depends: R (>= 3.5)
 Imports: data.table (>= 1.10.4), DBI, digest, fpCompare, glue,
         magrittr, methods, Require, raster, RSQLite, rlang, sp (>=
@@ -133,7 +133,7 @@ Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
 License: GPL-3
 
 Package: SpaDES.install
-Version: 0.0.4
+Version: 0.0.4.9000
 Depends: R (>= 3.6)
 Imports: methods, Require, utils
 Suggests: data.table, reproducible, SpaDES.core
