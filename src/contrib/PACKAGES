@@ -33,6 +33,20 @@ License: GPL-3
 MD5sum: d325bd4041ecde4c1da63fa2492132e8
 NeedsCompilation: no
 
+Package: fireSenseUtils
+Version: 0.0.4.9080
+Depends: R (>= 3.6)
+Imports: crayon, data.table, DEoptim, EnvStats, fasterize, fpCompare,
+        future, kSamples, LandR (>= 1.0.0.9002), magrittr, mclust,
+        methods, qs, quickPlot, pemisc, pROC, purrr, raster,
+        reproducible, RhpcBLASctl, sf, sp, SpaDES.core, SpaDES.tools
+        (>= 0.3.7), spatialEco, stats
+Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
+        rgeos, rmarkdown, spatstat, spelling, testthat
+License: GPL-3
+MD5sum: 7a0758e7bf802d6b2a953f7c6a96608f
+NeedsCompilation: no
+
 Package: LandR
 Version: 0.0.12.9005
 Depends: R (>= 3.6)
@@ -138,21 +152,6 @@ Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
         rmarkdown, tcltk, testthat (>= 1.0.2)
 License: GPL-3
 MD5sum: ccd7b7b912c4edc772a7fc195f0f3e8a
-NeedsCompilation: no
-
-Package: SpaDES.core
-Version: 1.0.6.9026
-Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.6.9014)
-Imports: crayon, data.table (>= 1.10.4), fastdigest, igraph (>= 1.0.1),
-        methods, qs (>= 0.21.1), raster (>= 2.5-8), Require (>= 0.0.7),
-        stats, utils, whisker
-Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
-        future.callr, ggplot2, googledrive, httr, knitr, logging,
-        magrittr, png, RandomFields (>= 3.3.4), RColorBrewer (>=
-        1.1-2), rgdal, rstudioapi, sp, SpaDES.tools (>= 0.2.0),
-        rmarkdown, tcltk, testthat (>= 1.0.2)
-License: GPL-3
-MD5sum: de4800539360e00084f6584197dad0ae
 NeedsCompilation: no
 
 Package: SpaDES.tools
