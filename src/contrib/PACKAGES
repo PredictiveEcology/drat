@@ -98,6 +98,19 @@ License: GPL-3
 MD5sum: 2fb11630881c57db01b70105576a4512
 NeedsCompilation: no
 
+Package: pemisc
+Version: 0.0.3.9001
+Depends: R (>= 3.6)
+Imports: amc (>= 0.1.6.9000), assertthat, backports, data.table,
+        fasterize, igraph, methods, magrittr, parallel, peutils,
+        raster, RCurl, reproducible, sp, SpaDES.core, stats, tools,
+        utils
+Suggests: details, git2r, here, knitr, roxygen2, rmarkdown,
+        sessioninfo, testthat
+License: GPL-3
+MD5sum: 42fea8fb9161c94050a2d8162a2943b0
+NeedsCompilation: no
+
 Package: peutils
 Version: 0.1.0
 Suggests: covr, spelling, testthat
