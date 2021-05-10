@@ -49,7 +49,7 @@ License: GPL-3
 Archs: x64
 
 Package: LandWebUtils
-Version: 0.1.3
+Version: 0.1.4
 Depends: R (>= 3.6)
 Imports: data.table (>= 1.10.4), graphics, grDevices, dplyr, LandR (>=
         0.0.5), magrittr, map, methods, pemisc, raster, reproducible,
