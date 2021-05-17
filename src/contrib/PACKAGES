@@ -48,6 +48,21 @@ License: GPL-3
 MD5sum: 57b6113a0102322e553a672faeeb1664
 NeedsCompilation: yes
 
+Package: LandR
+Version: 1.0.0.9003
+Depends: R (>= 3.6)
+Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
+        ggpubr, ggspatial, grDevices, httr, lme4, magrittr, map,
+        methods, MuMIn (>= 1.42.5), pemisc, quickPlot, raster,
+        RColorBrewer, Rcpp, RCurl, reproducible (>= 1.2.6.9003), sf,
+        SpaDES.tools (>= 0.3.1.9000), stats, tools, utils, XML
+LinkingTo: Rcpp
+Suggests: covr, googledrive, knitr, RandomFields, roxygen2, rmarkdown,
+        spelling, testthat
+License: GPL-3
+MD5sum: 2519705b64d36c24b24bb88c0f424500
+NeedsCompilation: yes
+
 Package: LandWebUtils
 Version: 0.1.2
 Depends: R (>= 3.6)
@@ -57,17 +72,6 @@ Imports: data.table (>= 1.10.4), graphics, grDevices, dplyr, LandR (>=
 Suggests: covr
 License: GPL-3
 MD5sum: 89ad1b977853552b3b1a8a263367d972
-NeedsCompilation: no
-
-Package: LandWebUtils
-Version: 0.1.4
-Depends: R (>= 3.6)
-Imports: data.table (>= 1.10.4), graphics, grDevices, dplyr, LandR (>=
-        0.0.5), magrittr, map, methods, pemisc, raster, reproducible,
-        SpaDES.core, stats, tools, utils
-Suggests: covr
-License: GPL-3
-MD5sum: bbe35cb4cb72479cd750b9655aea1323
 NeedsCompilation: no
 
 Package: map
@@ -149,21 +153,6 @@ Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
         rmarkdown, tcltk, testthat (>= 1.0.2)
 License: GPL-3
 MD5sum: ccd7b7b912c4edc772a7fc195f0f3e8a
-NeedsCompilation: no
-
-Package: SpaDES.core
-Version: 1.0.6.9026
-Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.6.9014)
-Imports: crayon, data.table (>= 1.10.4), fastdigest, igraph (>= 1.0.1),
-        methods, qs (>= 0.21.1), raster (>= 2.5-8), Require (>= 0.0.7),
-        stats, utils, whisker
-Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
-        future.callr, ggplot2, googledrive, httr, knitr, logging,
-        magrittr, png, RandomFields (>= 3.3.4), RColorBrewer (>=
-        1.1-2), rgdal, rstudioapi, sp, SpaDES.tools (>= 0.2.0),
-        rmarkdown, tcltk, testthat (>= 1.0.2)
-License: GPL-3
-MD5sum: e055b1e514fda4387481ccc3bd79de8d
 NeedsCompilation: no
 
 Package: SpaDES.tools
