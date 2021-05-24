@@ -20,6 +20,18 @@ License: GPL-3
 MD5sum: a0ef9258c4dfe48f320262d197d9b7dc
 NeedsCompilation: yes
 
+Package: CBMutils
+Version: 0.0.7.9003
+Depends: R (>= 3.5)
+Imports: data.table, fasterize, ggplot2, magrittr, methods, quickPlot,
+        raster, reproducible, Rcpp, RSQLite, sf, sp, SpaDES.core,
+        stringr
+LinkingTo: Rcpp
+Suggests: covr, knitr, LandR, rmarkdown, testthat
+License: GPL-3
+MD5sum: 641bef6fe89c7e66fd38cd1644bec136
+NeedsCompilation: yes
+
 Package: fireSenseUtils
 Version: 0.0.4.9039
 Depends: R (>= 3.6)
@@ -49,19 +61,18 @@ MD5sum: 57b6113a0102322e553a672faeeb1664
 NeedsCompilation: yes
 
 Package: LandR
-Version: 1.0.0.9003
+Version: 1.0.2
 Depends: R (>= 3.6)
 Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
         ggpubr, ggspatial, grDevices, httr, lme4, magrittr, map,
         methods, MuMIn (>= 1.42.5), pemisc, quickPlot, raster,
-        RColorBrewer, Rcpp, RCurl, reproducible (>= 1.2.6.9003), sf,
+        RColorBrewer, RCurl, reproducible (>= 1.2.6.9003), sf,
         SpaDES.tools (>= 0.3.1.9000), stats, tools, utils, XML
-LinkingTo: Rcpp
 Suggests: covr, googledrive, knitr, RandomFields, roxygen2, rmarkdown,
         spelling, testthat
 License: GPL-3
-MD5sum: d16060ff9b486866ec9402d45777b788
-NeedsCompilation: yes
+MD5sum: a83a6798702f52e1ef9c109630bea7f7
+NeedsCompilation: no
 
 Package: LandWebUtils
 Version: 0.1.2
@@ -131,6 +142,19 @@ License: GPL-3
 MD5sum: ee23a68722da7036042216a667cb6044
 NeedsCompilation: no
 
+Package: reproducible
+Version: 1.2.6.9017
+Depends: R (>= 3.5)
+Imports: data.table (>= 1.10.4), DBI, digest, fpCompare, glue,
+        magrittr, methods, Require, raster, RSQLite, rlang, sp (>=
+        1.4-2), utils
+Suggests: covr, crayon, fastdigest, fasterize, future, gdalUtils,
+        googledrive, httr, qs, knitr, parallel, RCurl (>= 1.95-4.8),
+        rgdal, rgeos, rmarkdown, sf, stats, testthat
+License: GPL-3
+MD5sum: 98813b53331ae8ca9741f92106c2f4af
+NeedsCompilation: no
+
 Package: Require
 Version: 0.0.11.9001
 Depends: R (>= 3.5)
@@ -153,21 +177,6 @@ Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
         rmarkdown, tcltk, testthat (>= 1.0.2)
 License: GPL-3
 MD5sum: ccd7b7b912c4edc772a7fc195f0f3e8a
-NeedsCompilation: no
-
-Package: SpaDES.core
-Version: 1.0.6.9026
-Depends: R (>= 3.6), quickPlot (>= 0.1.4), reproducible (>= 1.2.6.9014)
-Imports: crayon, data.table (>= 1.10.4), fastdigest, igraph (>= 1.0.1),
-        methods, qs (>= 0.21.1), raster (>= 2.5-8), Require (>= 0.0.7),
-        stats, utils, whisker
-Suggests: codetools, covr, DiagrammeR (>= 0.8.2), dplyr, future,
-        future.callr, ggplot2, googledrive, httr, knitr, logging,
-        magrittr, png, RandomFields (>= 3.3.4), RColorBrewer (>=
-        1.1-2), rgdal, rstudioapi, sp, SpaDES.tools (>= 0.2.0),
-        rmarkdown, tcltk, testthat (>= 1.0.2)
-License: GPL-3
-MD5sum: 95c848ecdb7095a9e6bee18cab318ddb
 NeedsCompilation: no
 
 Package: SpaDES.tools
