@@ -20,18 +20,6 @@ License: GPL-3
 MD5sum: a0ef9258c4dfe48f320262d197d9b7dc
 NeedsCompilation: yes
 
-Package: CBMutils
-Version: 0.0.7.9003
-Depends: R (>= 3.5)
-Imports: data.table, fasterize, ggplot2, magrittr, methods, quickPlot,
-        raster, reproducible, Rcpp, RSQLite, sf, sp, SpaDES.core,
-        stringr
-LinkingTo: Rcpp
-Suggests: covr, knitr, LandR, rmarkdown, testthat
-License: GPL-3
-MD5sum: 641bef6fe89c7e66fd38cd1644bec136
-NeedsCompilation: yes
-
 Package: fireSenseUtils
 Version: 0.0.4.9039
 Depends: R (>= 3.6)
@@ -59,20 +47,6 @@ Suggests: covr, knitr, RandomFields, roxygen2, rmarkdown, spelling,
 License: GPL-3
 MD5sum: 57b6113a0102322e553a672faeeb1664
 NeedsCompilation: yes
-
-Package: LandR
-Version: 1.0.2
-Depends: R (>= 3.6)
-Imports: crayon, data.table, fasterize, fpCompare, gdalUtils, ggplot2,
-        ggpubr, ggspatial, grDevices, httr, lme4, magrittr, map,
-        methods, MuMIn (>= 1.42.5), pemisc, quickPlot, raster,
-        RColorBrewer, RCurl, reproducible (>= 1.2.6.9003), sf,
-        SpaDES.tools (>= 0.3.1.9000), stats, tools, utils, XML
-Suggests: covr, googledrive, knitr, RandomFields, roxygen2, rmarkdown,
-        spelling, testthat
-License: GPL-3
-MD5sum: a83a6798702f52e1ef9c109630bea7f7
-NeedsCompilation: no
 
 Package: LandWebUtils
 Version: 0.1.2
@@ -143,7 +117,7 @@ MD5sum: ee23a68722da7036042216a667cb6044
 NeedsCompilation: no
 
 Package: reproducible
-Version: 1.2.6.9017
+Version: 1.2.7.9000
 Depends: R (>= 3.5)
 Imports: data.table (>= 1.10.4), DBI, digest, fpCompare, glue,
         magrittr, methods, Require, raster, RSQLite, rlang, sp (>=
@@ -152,7 +126,7 @@ Suggests: covr, crayon, fastdigest, fasterize, future, gdalUtils,
         googledrive, httr, qs, knitr, parallel, RCurl (>= 1.95-4.8),
         rgdal, rgeos, rmarkdown, sf, stats, testthat
 License: GPL-3
-MD5sum: 98813b53331ae8ca9741f92106c2f4af
+MD5sum: 76333beba32d0a92c4c1da03ff6824c5
 NeedsCompilation: no
 
 Package: Require
@@ -162,6 +136,15 @@ Imports: data.table (>= 1.10.4), methods, remotes, utils
 Suggests: covr, testit
 License: GPL-3
 MD5sum: 4211879fb601ef4e010f46c48eb933de
+NeedsCompilation: no
+
+Package: Require
+Version: 0.0.13
+Depends: R (>= 3.6)
+Imports: data.table (>= 1.10.4), methods, remotes, utils
+Suggests: covr, testit
+License: GPL-3
+MD5sum: 974ac1dc28c679970c2a46d7d6b8c6d0
 NeedsCompilation: no
 
 Package: SpaDES.core
