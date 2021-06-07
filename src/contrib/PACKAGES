@@ -209,6 +209,24 @@ License: GPL-3
 MD5sum: 3326962cff0c7c1c3f72b2a428de2b87
 NeedsCompilation: yes
 
+Package: SpaDES.tools
+Version: 0.3.8
+Depends: R (>= 3.6.0)
+Imports: backports, checkmate (>= 1.8.2), CircStats (>= 0.2-4),
+        data.table (>= 1.10.4), fastmatch (>= 1.1-0), fpCompare (>=
+        0.2.1), magrittr, methods, parallel, quickPlot, raster (>=
+        2.5-8), Rcpp (>= 0.12.12), reproducible (>= 0.2.0), Require,
+        rgeos, sp (>= 1.2-4), stats
+LinkingTo: Rcpp
+Suggests: animation, bit (>= 1.1-12), DBI, DEoptim (>= 2.2-4), dplyr,
+        dqrng, fasterize, ff (>= 2.2-13), ffbase (>= 0.12.3),
+        gdalUtils, googledrive, knitr, mgcv, RandomFields (>= 3.1.24),
+        RColorBrewer (>= 1.1-2), rmarkdown, sf, testthat (>= 1.0.2),
+        covr
+License: GPL-3
+MD5sum: 2bba9c1f5f545a99ca0d0d6f91518072
+NeedsCompilation: yes
+
 Package: usefulFuns
 Version: 0.1.0
 Depends: R (>= 3.6)
