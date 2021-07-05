@@ -56,8 +56,7 @@ jobs:
         if: runner.os == 'macOS'
         run: |
           brew install gdal imagemagick@6 libgit2 udunits
-          Rscript -e 'install.packages("sf", configure.args = c("--with-proj-lib=/usr/local/lib/", "--with-proj-include=/usr/local/include/"))'
-          Rscript -e 'install.packages("rgdal", configure.args = c("--with-proj-lib=/usr/local/lib/", "--with-proj-include=/usr/local/include/"))'
+          Rscript -e 'install.packages(c("sf", "rgdal"), configure.args = c("--with-proj-lib=/usr/local/lib/", "--with-proj-include=/usr/local/include/"))'
           Rscript build_binaries.R
           git commit -a -m 'add latest binary packages for macOS'
           git pull -s ours origin ${{ github.ref }}
