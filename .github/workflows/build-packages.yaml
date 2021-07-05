@@ -24,6 +24,7 @@ jobs:
 
     env:
       RSPM: ${{ matrix.config.rspm }}
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - uses: actions/checkout@v1
@@ -54,7 +55,7 @@ jobs:
       - name: Build binary packages (macOS)
         if: runner.os == 'macOS'
         run: |
-          brew install imagemagick@6 libgit2 udunits
+          brew install gdal imagemagick@6 libgit2 udunits
           Rscript build_binaries.R
           git commit -a -m 'add latest binary packages for macOS'
           git pull -s ours origin ${{ github.ref }}
