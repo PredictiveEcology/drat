@@ -33,20 +33,6 @@ License: GPL-3
 MD5sum: d325bd4041ecde4c1da63fa2492132e8
 NeedsCompilation: no
 
-Package: fireSenseUtils
-Version: 0.0.4.9080
-Depends: R (>= 3.6)
-Imports: crayon, data.table, DEoptim, EnvStats, fasterize, fpCompare,
-        future, kSamples, LandR (>= 1.0.0.9002), magrittr, mclust,
-        methods, qs, quickPlot, pemisc, pROC, purrr, raster,
-        reproducible, RhpcBLASctl, sf, sp, SpaDES.core, SpaDES.tools
-        (>= 0.3.7), spatialEco, stats
-Suggests: dplyr, ggplot2, knitr, lintr, parallel, PtProcess, Require,
-        rgeos, rmarkdown, spatstat, spelling, testthat
-License: GPL-3
-MD5sum: 2a4ca4ce5b57b760854b0eaf90cef38f
-NeedsCompilation: no
-
 Package: LandR
 Version: 0.0.12.9005
 Depends: R (>= 3.6)
@@ -111,10 +97,10 @@ Depends: R (>= 3.6)
 Imports: backports, data.table (>= 1.10.4), fpCompare, ggplot2,
         grDevices, grid, gridBase, igraph, methods, raster,
         RColorBrewer, rgdal, rgeos, sp, stats
-Suggests: covr, fastshp, hunspell, knitr, rmarkdown, spelling, testthat
-        (>= 1.0.2), visualTest
+Suggests: covr, fastshp, knitr, png, rmarkdown, spelling, testthat (>=
+        1.0.2), visualTest
 License: GPL-3
-MD5sum: 54a80e0fb306acad9f7a41f0bccca983
+MD5sum: 63878bedc6092bb3eb5146307abb5bf1
 NeedsCompilation: no
 
 Package: reproducible
@@ -170,6 +156,24 @@ Suggests: animation, bit (>= 1.1-12), DBI, DEoptim (>= 2.2-4), dplyr,
         covr
 License: GPL-3
 MD5sum: 3326962cff0c7c1c3f72b2a428de2b87
+NeedsCompilation: yes
+
+Package: SpaDES.tools
+Version: 0.3.8.9000
+Depends: R (>= 3.6)
+Imports: backports, checkmate (>= 1.8.2), CircStats (>= 0.2-4),
+        data.table (>= 1.10.4), fastmatch (>= 1.1-0), fpCompare (>=
+        0.2.1), magrittr, methods, parallel, quickPlot, raster (>=
+        2.5-8), Rcpp (>= 0.12.12), reproducible (>= 0.2.0), Require,
+        rgeos, sp (>= 1.2-4), stats
+LinkingTo: Rcpp
+Suggests: animation, bit (>= 1.1-12), DBI, DEoptim (>= 2.2-4), dplyr,
+        dqrng, fasterize, ff (>= 2.2-13), ffbase (>= 0.12.3),
+        gdalUtils, googledrive, knitr, mgcv, RandomFields (>= 3.1.24),
+        RColorBrewer (>= 1.1-2), rmarkdown, sf, testthat (>= 1.0.2),
+        covr
+License: GPL-3
+MD5sum: 336e802d05df624345fe90ba374e9748
 NeedsCompilation: yes
 
 Package: usefulFuns
